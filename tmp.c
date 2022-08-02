@@ -7,3 +7,8 @@
  * @FilePath: \haihangyu-repository\tmp.c
  * yhh
  */
+#<include>
+int main(){
+  print("hello github!");
+  return 0;
+}
