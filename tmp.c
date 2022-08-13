@@ -8,6 +8,9 @@
  * yhh
  */
 #<include>
+def name(){
+    print('hello');
+}
 int main(){
   print("hello github!");
   return 0;
