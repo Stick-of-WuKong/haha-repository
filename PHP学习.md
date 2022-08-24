@@ -4,6 +4,10 @@
 
 **PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言。**
 
+##### [PHP 参考手册](https://www.w3school.com.cn/php/php_ref.asp)
+
+##### [PHP 测验](https://www.w3school.com.cn/php/php_quiz.asp)
+
 ## PHP简介
 
 - PHP在服务器上执行
@@ -950,10 +954,1052 @@ default:
 
 **PHP while 循环在指定条件为 true 时执行代码块。**
 
+在您编写代码时，经常需要反复运行同一代码块。我们可以使用循环来执行这样的任务，而不是在脚本中添加若干几乎相等的代码行。
+
+在 PHP 中，我们有以下循环语句：
+
+- *while* - 只要指定条件为真，则循环代码块
+- *do...while* - 先执行一次代码块，然后只要指定条件为真则重复循环
+- *for* - 循环代码块指定次数
+- *foreach* - 遍历数组中的每个元素并循环代码块
+
+### while 循环
+
+只要指定的条件为真，while 循环就会执行代码块。
+
+```
+while (条件为真) {
+  要执行的代码;
+}
+```
+
+下例首先把变量 $x 设置为 1（$x=1）。然后执行 while 循环，只要 $x 小于或等于 5。循环每运行一次，$x 将递增 1：
+
+```php
+<?php 
+$x=1; 
+
+while($x<=5) {
+  echo "这个数字是：$x <br>";
+  $x++;
+} 
+?>
+```
+
+### PHP do...while 循环
+
+do...while 循环首先会执行一次代码块，然后检查条件，如果指定条件为真，则重复循环。
+
+```
+do {
+  要执行的代码;
+} while (条件为真);
+```
+
+下面的例子首先把变量 $x 设置为 1（$x=1）。然后，do while 循环输出一段字符串，然后对变量 $x 递增 1。随后对条件进行检查（$x 是否小于或等于 5）。只要 $x 小于或等于 5，循环将会继续运行：
+
+```php
+<?php 
+$x=1; 
+
+do {
+  echo "这个数字是：$x <br>";
+  $x++;
+} while ($x<=5);
+?>
+```
+
+请注意，do while 循环只在执行循环内的语句之后才对条件进行测试。这意味着 do while 循环至少会执行一次语句，即使条件测试在第一次就失败了。
+
+下面的例子把 $x 设置为 6，然后运行循环，*随后对条件进行检查*：
+
+```php
+<?php 
+$x=6;
+
+do {
+  echo "这个数字是：$x <br>";
+  $x++;
+} while ($x<=5);
+?>
+```
+
+## PHP for循环
+
+**PHP for 循环执行代码块指定的次数。**
+
+如果您已经提前确定脚本运行的次数，可以使用 for 循环。
+
+```php
+for (init counter; test counter; increment counter) {
+  code to be executed;
+}
+```
+
+参数：
+
+- init counter：初始化循环计数器的值
+- test counter：: 评估每个循环迭代。如果值为 TRUE，继续循环。如果它的值为 FALSE，循环结束。
+- increment counter：增加循环计数器的值
+
+下面的例子显示了从 0 到 10 的数字：
+
+```php
+<?php 
+for ($x=0; $x<=10; $x++) {
+  echo "数字是：$x <br>";
+} 
+?>
+```
+
+### PHP foreach 循环
+
+foreach 循环只适用于数组，并用于遍历数组中的每个键/值对。
+
+```php
+foreach ($array as $value) {
+  code to be executed;
+}
+```
+
+每进行一次循环迭代，当前数组元素的值就会被赋值给 $value 变量，并且数组指针会逐一地移动，直到到达最后一个数组元素。
+
+下面的例子演示的循环将输出给定数组（$colors）的值：
+
+```php
+<?php 
+$colors = array("red","green","blue","yellow"); 
+
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
+?>
+```
+
+## PHP函数
+
+**PHP 的真正力量来自它的函数：它拥有超过 1000 个内建的函数。**
+
+### PHP 用户定义函数
+
+除了内建的 PHP 函数，我们可以创建我们自己的函数。
+
+函数是可以在程序中重复使用的语句块。
+
+页面加载时函数不会立即执行。
+
+函数只有在被调用时才会执行。
+
+### 在 PHP 创建用户定义函数
+
+用户定义的函数声明以单词 "function" 开头：
+
+```
+function functionName() {
+  被执行的代码;
+}
+```
+
+**注释：**函数名能够以字母或下划线开头（而非数字）。
+
+**注释：**函数名对大小写不敏感。
+
+**提示：**函数名应该能够反映函数所执行的任务。
+
+### PHP 函数参数
+
+可以通过参数向函数传递信息。参数类似变量。
+
+参数被定义在函数名之后，括号内部。您可以添加任意多参数，只要用逗号隔开即可。
+
+下面的例子中的函数有一个参数（$fname）。当调用 familyName() 函数时，我们同时要传递一个名字（例如 Bill），这样会输出不同的名字，但是姓氏相同：
+
+```php+HTML
+<?php
+function familyName($fname) {
+  echo "$fname Zhang.<br>";
+}
+
+familyName("Li");
+familyName("Hong");
+familyName("Tao");
+familyName("Xiao Mei");
+familyName("Jian");
+?>
+```
+
+### PHP 默认参数值
+
+下面的例子展示了如何使用默认参数。如果我们调用没有参数的 setHeight() 函数，它的参数会取默认值：
+
+```
+<?php
+function setHeight($minheight=50) {
+  echo "The height is : $minheight <br>";
+}
+
+setHeight(350);
+setHeight(); // 将使用默认值 50
+setHeight(135);
+setHeight(80);
+?>
+```
+
+## PHP 函数 - 返回值
+
+如需使函数返回值，请使用 return 语句：
+
+```php
+<?php
+function sum($x,$y) {
+  $z=$x+$y;
+  return $z;
+}
+
+echo "5 + 10 = " . sum(5,10) . "<br>"; // .用来连接字符串
+echo "7 + 13 = " . sum(7,13) . "<br>";
+echo "2 + 4 = " . sum(2,4);
+?>
+```
+
+## PHP数组
+
+**数组能够在单独的变量名中存储一个或多个值。**
+
+数组在单个变量中存储多个值：
+
+```php
+<?php
+$cars=array("porsche","BMW","Volvo");
+echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+?>
+```
+
+### 什么是数组？
+
+数组是特殊的变量，它可以同时保存一个以上的值。
+
+如果您有一个项目列表（例如汽车品牌列表），在单个变量中存储这些品牌名称是这样的：
+
+```
+$cars1="porsche";
+$cars2="BMW";
+$cars3="Volvo";
+```
+
+不过，假如您希望对变量进行遍历并找出特定的那个值？或者如果您需要存储 300 个汽车品牌，而不是 3 个呢？
+
+解决方法是创建数组！
+
+数组能够在单一变量名中存储许多值，并且您能够通过引用索引号来访问某个值。
+
+### 在 PHP 中创建数组
+
+在 PHP 中， array() 函数用于创建数组：
+
+```
+array();
+```
+
+在 PHP 中，有三种数组类型：
+
+- *索引数组* - 带有数字索引的数组
+- *关联数组* - 带有指定键的数组
+- *多维数组* - 包含一个或多个数组的数组
+
+### PHP 索引数组
+
+有两种创建索引数组的方法：
+
+索引是自动分配的（索引从 0 开始）：
+
+```
+$cars=array("porsche","BMW","Volvo");
+```
+
+或者也可以手动分配索引：
+
+```
+$cars[0]="porsche";
+$cars[1]="BMW";
+$cars[2]="Volvo";
+```
+
+下面的例子创建名为 $cars 的索引数组，为其分配三个元素，然后输出包含数组值的一段文本：
+
+```php
+<?php
+$cars=array("porsche","BMW","Volvo");
+echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+?>
+```
+
+### 获得数组的长度 - count() 函数
+
+count() 函数用于返回数组的长度（元素数）：
+
+```php
+<?php
+$cars=array("porsche","BMW","Volvo");
+echo count($cars);
+?>
+```
+
+### 遍历索引数组
+
+如需遍历并输出索引数组的所有值，您可以使用 for 循环，就像这样：
+
+```
+<?php
+$cars=array("porsche","BMW","Volvo");
+$arrlength=count($cars);
+
+for($x=0;$x<$arrlength;$x++) {
+  echo $cars[$x];
+  echo "<br>";
+}
+?>
+```
+
+### PHP 关联数组
+
+关联数组是使用您分配给数组的指定键的数组。
+
+有两种创建关联数组的方法：
+
+```
+$age=array("Bill"=>"35","Steve"=>"37","Elon"=>"43");
+```
+
+或者：
+
+```
+$age['Bill']="63";
+$age['Steve']="56";
+$age['Elon']="47";
+```
+
+随后可以在脚本中使用指定键：
+
+```php
+<?php
+$age=array("Bill"=>"63","Steve"=>"56","Elon"=>"47");
+echo "Elon is " . $age['Elon'] . " years old.";
+?>
+```
+
+### 遍历关联数组
+
+如需遍历并输出关联数组的所有值，您可以使用 foreach 循环，就像这样：
+
+```php
+<?php
+$age=array("Bill"=>"63","Steve"=>"56","Elon"=>"47");
+
+foreach($age as $x=>$x_value) {
+  echo "Key=" . $x . ", Value=" . $x_value;
+  echo "<br>";
+}
+?>
+```
+
+### 多维数组
+
+[多维数组](https://www.w3school.com.cn/php/php_arrays_multi.asp)
+
+## 数组排序
+
+**数组中的元素能够以字母或数字顺序进行升序或降序排序。**
+
+### PHP - 数组的排序函数
+
+在本节中，我们将学习如下 PHP 数组排序函数：
+
+- sort() - 以升序对数组排序
+- rsort() - 以降序对数组排序
+- asort() - 根据值，以升序对关联数组进行排序
+- ksort() - 根据键，以升序对关联数组进行排序
+- arsort() - 根据值，以降序对关联数组进行排序
+- krsort() - 根据键，以降序对关联数组进行排序
+
+### 对数组进行升序排序 - sort()
+
+下面的例子按照字母升序对数组 $cars 中的元素进行排序：
+
+```
+<?php
+$cars=array("porsche","BMW","Volvo");
+sort($cars);
+?>
+```
+
+![image-20220823192743126](http://cdn.ayusummer233.top/img/image-20220823192743126.png)
+
+下面的例子按照数字升序对数组 $numbers 中的元素进行排序：
+
+```php
+<?php
+$numbers=array(3,5,1,22,11);
+sort($numbers);
+?>
+```
+
+![image-20220823193035931](http://cdn.ayusummer233.top/img/image-20220823193035931.png)
+
+### 对数组进行降序排序 - rsort()
+
+下面的例子按照字母降序对数组 $cars 中的元素进行排序：
+
+```
+<?php
+$cars=array("porsche","BMW","Volvo");
+rsort($cars);
+?>
+```
+
+![image-20220823193011173](http://cdn.ayusummer233.top/img/image-20220823193011173.png)
+
+下面的例子按照数字降序对数组 $numbers 中的元素进行排序：
+
+```
+<?php
+$numbers=array(3,5,1,22,11);
+rsort($numbers);
+?>
+```
 
 
 
+### 根据值对数组进行升序排序 - asort()
 
-##### [PHP 参考手册](https://www.w3school.com.cn/php/php_ref.asp)
+下面的例子根据值对关联数组进行升序排序：
 
-##### [PHP 测验](https://www.w3school.com.cn/php/php_quiz.asp)
+```
+<?php
+$age=array("Bill"=>"63","Steve"=>"56","Elon"=>"47");
+asort($age);
+?>
+```
+
+![image-20220823193106083](http://cdn.ayusummer233.top/img/image-20220823193106083.png)
+
+### 根据键对数组进行升序排序 - ksort()
+
+下面的例子根据键对关联数组进行升序排序：
+
+```
+<?php
+$age=array("Bill"=>"63","Steve"=>"56","Elon"=>"47");
+ksort($age);
+?>
+```
+
+![image-20220823193127555](http://cdn.ayusummer233.top/img/image-20220823193127555.png)
+
+### 根据值对数组进行降序排序 - arsort()
+
+下面的例子根据值对关联数组进行降序排序：
+
+```php
+<?php
+$age=array("Bill"=>"63","Steve"=>"56","Elon"=>"47");
+arsort($age);
+?>
+```
+
+
+
+### 根据键对数组进行降序排序 - krsort()
+
+下面的例子根据键对关联数组进行降序排序：
+
+```php
+<?php
+$age=array("Bill"=>"63","Steve"=>"56","Elon"=>"47");
+krsort($age);
+?>
+```
+
+## PHP全局变量-超全局
+
+**超全局变量在 PHP 4.1.0 中引入，是在全部作用域中始终可用的内置变量。**
+
+### PHP 全局变量 - 超全局变量
+
+PHP 中的许多预定义变量都是“超全局的”，这意味着它们在一个脚本的全部作用域中都可用。在函数或方法中无需执行 global $variable; 就可以访问它们。
+
+这些超全局变量是：
+
+- $GLOBALS
+- $_SERVER
+- $_REQUEST
+- $_POST
+- $_GET
+- $_FILES
+- $_ENV
+- $_COOKIE
+- $_SESSION
+
+本节会介绍一些超全局变量，并会在稍后的章节讲解其他的超全局变量。
+
+### $GLOBALS — 引用全局作用域中可用的全部变量
+
+$GLOBALS 这种全局变量用于在 PHP 脚本中的任意位置访问全局变量（从函数或方法中均可）。
+
+PHP 在名为 $GLOBALS[index] 的数组中存储了所有全局变量。变量的名字就是数组的键。
+
+下面的例子展示了如何使用超级全局变量 $GLOBALS：  由于 z 是 $GLOBALS 数组中的变量，因此在函数之外也可以访问它。
+
+```php
+<?php 
+$x = 75; 
+$y = 25;
+ 
+function addition() { 
+  $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y']; 
+}
+ 
+addition(); 
+echo $z; 
+?>
+```
+
+### PHP $_SERVER
+
+$_SERVER 这种超全局变量保存关于报头、路径和脚本位置的信息。
+
+下面的例子展示了如何使用 $_SERVER 中的某些元素：
+
+```php
+<?php 
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
+echo $_SERVER['SERVER_NAME'];
+echo "<br>";
+echo $_SERVER['HTTP_HOST'];
+echo "<br>";
+echo $_SERVER['HTTP_REFERER'];
+echo "<br>";
+echo $_SERVER['HTTP_USER_AGENT'];
+echo "<br>";
+echo $_SERVER['SCRIPT_NAME'];
+?>
+```
+
+![image-20220823193554355](http://cdn.ayusummer233.top/img/image-20220823193554355.png)
+
+下表列出了您能够在 $_SERVER 中访问的最重要的元素：
+
+| 元素/代码                       | 描述                                                         |
+| :------------------------------ | :----------------------------------------------------------- |
+| $_SERVER['PHP_SELF']            | 返回当前执行脚本的文件名。                                   |
+| $_SERVER['GATEWAY_INTERFACE']   | 返回服务器使用的 CGI 规范的版本。                            |
+| $_SERVER['SERVER_ADDR']         | 返回当前运行脚本所在的服务器的 IP 地址。                     |
+| $_SERVER['SERVER_NAME']         | 返回当前运行脚本所在的服务器的主机名（比如 www.w3school.com.cn）。 |
+| $_SERVER['SERVER_SOFTWARE']     | 返回服务器标识字符串（比如 Apache/2.2.24）。                 |
+| $_SERVER['SERVER_PROTOCOL']     | 返回请求页面时通信协议的名称和版本（例如，“HTTP/1.0”）。     |
+| $_SERVER['REQUEST_METHOD']      | 返回访问页面使用的请求方法（例如 POST）。                    |
+| $_SERVER['REQUEST_TIME']        | 返回请求开始时的时间戳（例如 1577687494）。                  |
+| $_SERVER['QUERY_STRING']        | 返回查询字符串，如果是通过查询字符串访问此页面。             |
+| $_SERVER['HTTP_ACCEPT']         | 返回来自当前请求的请求头。                                   |
+| $_SERVER['HTTP_ACCEPT_CHARSET'] | 返回来自当前请求的 Accept_Charset 头（ 例如 utf-8,ISO-8859-1） |
+| $_SERVER['HTTP_HOST']           | 返回来自当前请求的 Host 头。                                 |
+| $_SERVER['HTTP_REFERER']        | 返回当前页面的完整 URL（不可靠，因为不是所有用户代理都支持）。 |
+| $_SERVER['HTTPS']               | 是否通过安全 HTTP 协议查询脚本。                             |
+| $_SERVER['REMOTE_ADDR']         | 返回浏览当前页面的用户的 IP 地址。                           |
+| $_SERVER['REMOTE_HOST']         | 返回浏览当前页面的用户的主机名。                             |
+| $_SERVER['REMOTE_PORT']         | 返回用户机器上连接到 Web 服务器所使用的端口号。              |
+| $_SERVER['SCRIPT_FILENAME']     | 返回当前执行脚本的绝对路径。                                 |
+| $_SERVER['SERVER_ADMIN']        | 该值指明了 Apache 服务器配置文件中的 SERVER_ADMIN 参数。     |
+| $_SERVER['SERVER_PORT']         | Web 服务器使用的端口。默认值为 “80”。                        |
+| $_SERVER['SERVER_SIGNATURE']    | 返回服务器版本和虚拟主机名。                                 |
+| $_SERVER['PATH_TRANSLATED']     | 当前脚本所在文件系统（非文档根目录）的基本路径。             |
+| $_SERVER['SCRIPT_NAME']         | 返回当前脚本的路径。                                         |
+| $_SERVER['SCRIPT_URI']          | 返回当前页面的 URI。                                         |
+
+### PHP $_REQUEST
+
+PHP $_REQUEST 用于收集 HTML 表单提交的数据。
+
+下面的例子展示了一个包含输入字段及提交按钮的表单。当用户通过点击提交按钮来提交表单数据时, 表单数据将发送到 <form> 标签的 action 属性中指定的脚本文件。在这个例子中，我们指定文件本身来处理表单数据。如果您需要使用其他的 PHP 文件来处理表单数据，请修改为您选择的文件名即可。然后，我们可以使用超级全局变量 $_REQUEST 来收集 input 字段的值：
+
+```php
+<html>
+
+<body>
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+Name: <input type="text" name="fname">
+<input type="submit">
+</form>
+
+<?php 
+$name = $_REQUEST['fname']; 
+echo $name; 
+?>
+
+</body>
+</html>
+```
+
+![image-20220823195307402](http://cdn.ayusummer233.top/img/image-20220823195307402.png)
+
+### PHP $_POST
+
+PHP $_POST 广泛用于收集提交 method="post" 的 HTML 表单后的表单数据。$_POST 也常用于传递变量。
+
+下面的例子展示了一个包含输入字段和提交按钮的表单。当用户点击提交按钮来提交数据后，表单数据会发送到 <form> 标签的 action 属性中指定的文件。在本例中，我们指定文件本身来处理表单数据。如果您希望使用另一个 PHP 页面来处理表单数据，请用更改为您选择的文件名。然后，我们可以使用超全局变量 $_POST 来收集输入字段的值：
+
+```php
+<html>
+<body>
+
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+Name: <input type="text" name="fname">
+<input type="submit">
+</form>
+
+<?php 
+$name = $_POST['fname'];
+echo $name; 
+?>
+
+</body>
+</html>
+```
+
+实际被解析为html文件传送到前端解析时显示的是：  action是自身文件
+![image-20220823200359089](http://cdn.ayusummer233.top/img/image-20220823200359089.png)
+
+如果改为：<form method="post" action="<?php ?>">    直接action='''' 也一样，实际被解析为html文件传送到前端解析时显示的是：  action为空，但是仍然是自身文件处理
+
+![image-20220823200607326](http://cdn.ayusummer233.top/img/image-20220823200607326.png)
+
+![image-20220823195604241](http://cdn.ayusummer233.top/img/image-20220823195604241.png)
+
+
+
+### PHP $_GET
+
+PHP $_GET 也可用于收集提交 HTML 表单 (method="get") 之后的表单数据。
+
+$_GET 也可以收集 URL 中的发送的数据。
+
+假设我们有一张页面含有带参数的超链接：
+
+```php
+<html>
+<body>
+
+<a href="test_get.php?subject=PHP&web=W3school.com.cn">测试 $GET</a>
+
+</body>
+</html>
+```
+
+当用户点击链接 "测试 $GET"，参数 "subject" 和 "web" 被发送到 "test_get.php"，然后您就能够通过 $_GET 在 "test_get.php" 中访问这些值了。
+
+下面的例子是 "test_get.php" 中的代码：
+
+```php
+<html>
+<body>
+
+<?php 
+echo "在 " . $_GET['web'] . " 学习 " . $_GET['subject'];
+?>
+
+</body>
+</html>
+```
+
+**提示：**您将在 [PHP 表单](https://www.w3school.com.cn/php/php_forms.asp) 这一节中学到更多有关 $_POST 和 $_GET 的知识。
+
+## PHP表单
+
+**PHP 超全局变量 $_GET 和 $_POST 用于收集表单数据（form-data）。**
+
+### PHP - 一个简单的 HTML 表单
+
+下面的例子显示了一个简单的 HTML 表单，它包含两个输入字段和一个提交按钮：
+
+```php
+<html>
+<body>
+
+<form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
+```
+
+当用户填写此表单并点击提交按钮后，表单数据会发送到名为 "welcome.php" 的 PHP 文件供处理。表单数据是通过 HTTP POST 方法发送的。
+
+如需显示出被提交的数据，您可以简单地输出（echo）所有变量。"welcome.php" 文件是这样的：
+
+``` php
+<html>
+<body>
+
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
+
+</body>
+</html>
+```
+
+输出：
+
+```
+Welcome Bill
+Your email address is Bill.Gates@example.com
+```
+
+使用 HTTP GET 方法也能得到相同的结果：
+
+```php
+<html>
+<body>
+
+<form action="welcome_get.php" method="get">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
+```
+
+welcome_get.php" 是这样的：
+
+```php
+<html>
+<body>
+
+Welcome <?php echo $_GET["name"]; ?><br>
+Your email address is: <?php echo $_GET["email"]; ?>
+
+</body>
+</html>
+```
+
+上面的代码很简单。不过，最重要的内容被漏掉了。您需要对表单数据进行验证，以防止脚本出现漏洞。
+
+**注意：**在处理 PHP 表单时请关注安全！
+
+本页未包含任何表单验证程序，它只向我们展示如何发送并接收表单数据。
+
+不过稍后的章节会为您讲解如何提高 PHP 表单的安全性！对表单进行适当的安全验证对于抵御黑客攻击和垃圾邮件非常重要！
+
+### GET vs. POST
+
+GET 和 POST 都创建数组（例如，array( key => value, key2 => value2, key3 => value3, ...)）。此数组包含键/值对，其中的键是表单控件的名称，而值是来自用户的输入数据。
+
+GET 和 POST 被视作 $_GET 和 $_POST。它们是超全局变量，这意味着对它们的访问无需考虑作用域 - 无需任何特殊代码，您能够从任何函数、类或文件访问它们。
+
+$_GET 是通过 URL 参数传递到当前脚本的变量数组。
+
+$_POST 是通过 HTTP POST 传递到当前脚本的变量数组。
+
+### 何时使用 GET？
+
+通过 GET 方法从表单发送的信息*对任何人都是可见的*（所有变量名和值都显示在 URL 中）。GET 对所发送信息的数量也有限制。限制在大约 2000 个字符。不过，由于变量显示在 URL 中，把页面添加到书签中也更为方便。
+
+GET 可用于发送非敏感的数据。
+
+**注释：**绝不能使用 GET 来发送密码或其他敏感信息！
+
+### 何时使用 POST？
+
+通过 POST 方法从表单发送的信息*对其他人是不可见的*（所有名称/值会被嵌入 HTTP 请求的主体中），并且对所发送信息的数量也*无限制*。
+
+此外 POST 支持高阶功能，比如在向服务器上传文件时进行 multi-part 二进制输入。
+
+不过，由于变量未显示在 URL 中，也就无法将页面添加到书签。
+
+**提示：**开发者偏爱 POST 来发送表单数据。
+
+接下来让我们看看如何安全地处理 PHP 表单！
+
+## PHP表单验证
+
+**使用 PHP 来验证表单数据**
+
+## PHP 表单验证
+
+**提示：**在处理 PHP 表单时请重视安全性！
+
+这些页面将展示如何安全地处理 PHP 表单。对 HTML 表单数据进行适当的验证对于防范黑客和垃圾邮件很重要！
+
+我们稍后使用的 HTML 表单包含多种输入字段：必需和可选的文本字段、单选按钮以及提交按钮：
+
+上面的表单使用如下验证规则：
+
+| 字段    | 验证规则                                          |
+| :------ | :------------------------------------------------ |
+| Name    | 必需。必须包含字母和空格。                        |
+| E-mail  | 必需。必须包含有效的电子邮件地址（包含 @ 和 .）。 |
+| Website | 可选。如果选填，则必须包含有效的 URL。            |
+| Comment | 可选。多行输入字段（文本框）。                    |
+| Gender  | 必需。必须选择一项。                              |
+
+首先我们看一下这个表单的纯 HTML 代码：
+
+<iframe src="https://www.w3school.com.cn/demo/demo_form_validation_complete.php" width="700" height="700" seamless="" fr-async-frames="Autoload" style="margin: 15px 0px 0px; padding: 0px; border: 1px solid rgb(221, 221, 221); font-family: &quot;Microsoft YaHei&quot;, system-ui, -apple-system, BlinkMacSystemFont, sans-serif, iconfont, icomoon, FontAwesome, &quot;Font Awesome 5 Pro&quot;, &quot;Font Awesome 6 Pro&quot;, IcoFont, fontello, themify, &quot;Material Icons&quot;, &quot;Material Icons Extended&quot;, bootstrap-icons, &quot;Segoe Fluent Icons&quot;, Material-Design-Iconic-Font, office365icons, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;, &quot;Android Emoji&quot;, EmojiSymbols, &quot;emojione mozilla&quot;, &quot;twemoji mozilla&quot;; text-shadow: rgba(164, 160, 154, 0.85) 0px 0px 0.23px, rgba(123, 123, 123, 0.8) 0px 0px 0.2px, rgba(48, 47, 45, 0.27) 0px 0px 0.15px; -webkit-text-stroke: 0.045px currentcolor; font-feature-settings: &quot;liga&quot; 0; font-variant: no-common-ligatures proportional-nums; font-optical-sizing: auto; font-kerning: auto; -webkit-font-smoothing: antialiased !important; text-rendering: optimizelegibility !important;"></iframe>
+
+### 文本字段
+
+name、email 和 website 属于文本输入元素，comment 字段是文本框。HTML 代码是这样的：
+
+```
+Name: <input type="text" name="name">
+E-mail: <input type="text" name="email">
+Website: <input type="text" name="website">
+Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+```
+
+### 单选按钮
+
+gender 字段是单选按钮，HTML 代码是这样的：
+
+```
+Gender:
+<input type="radio" name="gender" value="female">Female  #radio单选
+<input type="radio" name="gender" value="male">Male
+```
+
+### 表单元素
+
+表单的 HTML 代码是这样的：
+
+```
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+```
+
+当提交此表单时，通过 method="post" 发送表单数据。
+
+### 什么是 $_SERVER["PHP_SELF"] 变量？
+
+$_SERVER["PHP_SELF"] 是一种超全局变量，它返回当前执行脚本的文件名。
+
+因此，$_SERVER["PHP_SELF"] 将表单数据发送到页面本身，而不是跳转到另一张页面。这样，用户就能够在表单页面获得错误提示信息。
+
+### 什么是 htmlspecialchars() 函数？
+
+htmlspecialchars() 函数把特殊字符转换为 HTML 实体。这意味着 < 和 > 之类的 HTML 字符会被替换为 \&lt; 和 \&gt; 。这样可防止攻击者通过在表单中注入 HTML 或 JavaScript 代码（跨站点脚本攻击）对代码进行利用。
+
+### 关于 PHP 表单安全性的重要提示
+
+$_SERVER["PHP_SELF"] 变量能够被黑客利用！
+
+如果您的页面使用了 PHP_SELF，用户能够输入下划线然后执行跨站点脚本（XSS）。
+
+**提示：**跨站点脚本（Cross-site scripting，XSS）是一种计算机安全漏洞类型，常见于 Web 应用程序。XSS 能够使攻击者向其他用户浏览的网页中输入客户端脚本。
+
+假设我们的一张名为 "test_form.php" 的页面中有如下表单：
+
+```
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+```
+
+现在，如果用户进入的是地址栏中正常的 URL："http://www.example.com/test_form.php"，上面的代码会转换为：
+
+```
+<form method="post" action="test_form.php">
+```
+
+到目前，一切正常。
+
+不过，如果用户在地址栏中键入了如下 URL：
+
+```
+http://www.example.com/test_form.php/%22%3E%3Cscript%3Ealert('hacked')%3C/script%3E
+```
+
+在这种情况下，上面的代码会转换为：
+
+```
+<form method="post" action="test_form.php"/><script>alert('hacked')</script>
+```
+
+这段代码加入了一段脚本和一个提示命令。并且当此页面加载后，就会执行 JavaScript 代码（用户会看到一个提示框）。这仅仅是一个关于 PHP_SELF 变量如何被利用的简单无害案例。
+
+您应该意识到 *<script> 标签内能够添加任何 JavaScript 代码*！黑客能够把用户重定向到另一台服务器上的某个文件，该文件中的恶意代码能够更改全局变量或将表单提交到其他地址以保存用户数据，等等。
+
+### 如果避免 $_SERVER["PHP_SELF"] 被利用？
+
+通过使用 htmlspecialchars() 函数能够避免 $_SERVER["PHP_SELF"] 被利用。
+
+表单代码是这样的：
+
+```
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+```
+
+htmlspecialchars() 函数把特殊字符转换为 HTML 实体。现在，如果用户试图利用 PHP_SELF 变量，会导致如下输出：
+
+```
+<form method="post" action="test_form.php/&quot;&gt;&lt;script&gt;alert('hacked')&lt;/script&gt;">
+```
+
+无法利用，没有危害！
+
+### 通过 PHP 验证表单数据
+
+我们要做的第一件事是通过 PHP 的 htmlspecialchars() 函数传递所有变量。
+
+在我们使用 htmlspecialchars() 函数后，如果用户试图在文本字段中提交以下内容：
+
+```
+<script>location.href('http://www.hacked.com')</script>
+```
+
+\- 代码不会执行，因为会被保存为转义代码，就像这样：
+
+```
+&lt;script&gt;location.href('http://www.hacked.com')&lt;/script&gt;
+```
+
+现在这条代码显示在页面上或 e-mail 中是安全的。
+
+在用户提交该表单时，我们还要做两件事：
+
+1. （通过 PHP trim() 函数）去除用户输入数据中不必要的字符（多余的空格、制表符、换行）
+2. （通过 PHP stripslashes() 函数）删除用户输入数据中的反斜杠（\）反转义字符
+
+接下来我们创建一个检查函数（相比一遍遍地写代码，这样效率更好）。
+
+我们把函数命名为 test_input()。
+
+现在，我们能够通过 test_input() 函数检查每个 $_POST 变量，脚本是这样的：
+
+```php
+<?php
+// 定义变量并设置为空值
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = test_input($_POST["name"]);
+  $email = test_input($_POST["email"]);
+  $website = test_input($_POST["website"]);
+  $comment = test_input($_POST["comment"]);
+  $gender = test_input($_POST["gender"]);
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
+```
+
+![image-20220824095525668](http://cdn.ayusummer233.top/img/image-20220824095525668.png)
+
+请注意在脚本开头，我们检查了表单是否使用 $_SERVER["REQUEST_METHOD"] 进行提交。如果 REQUEST_METHOD 是 POST，那么表单已被提交 - 并且应该对其进行验证。如果未提交，则跳过验证并显示一个空白表单。
+
+不过，在上面的例子中，所有输入字段都是可选的。即使用户未输入任何数据，脚本也能正常工作。
+
+下一步是制作必填输入字段，并创建需要时使用的错误消息。
+
+## PHP表单验证-必填字段
+
+**本节展示如何制作必填输入字段，并创建需要时所用的错误消息。**
+
+## PHP - 输入字段
+
+从上一节中的验证规则中，我们看到 "Name", "E-mail" 以及 "Gender" 字段是必需的。这些字段不能为空且必须在 HTML 表单中填写。
+
+| 字段    | 验证规则                                          |
+| :------ | :------------------------------------------------ |
+| Name    | 必需。必须包含字母和空格。                        |
+| E-mail  | 必需。必须包含有效的电子邮件地址（包含 @ 和 .）。 |
+| Website | 可选。如果选填，则必须包含有效的 URL。            |
+| Comment | 可选。多行输入字段（文本框）。                    |
+| Gender  | 必需。必须选择一项。                              |
+
+在上一节中，所有输入字段都是可选的。
+
+在下面的代码中我们增加了一些新变量：$nameErr、$emailErr、$genderErr 以及 $websiteErr。这些错误变量会保存被请求字段的错误消息。我们还为每个 $_POST 变量添加了一个 if else 语句。这条语句检查 $_POST 变量是否为空（通过 PHP empty() 函数）。如果为空，则错误消息会存储于不同的错误变量中。如果不为空，则通过 test_input() 函数发送用户输入数据：
+
+```php
+<?php
+// 定义变量并设置为空值
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "Name is required";
+  } else {
+    $name = test_input($_POST["name"]);
+  }
+
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+  }
+
+  if (empty($_POST["website"])) {
+    $website = "";
+  } else {
+    $website = test_input($_POST["website"]);
+  }
+
+  if (empty($_POST["comment"])) {
+    $comment = "";
+  } else {
+    $comment = test_input($_POST["comment"]);
+  }
+
+  if (empty($_POST["gender"])) {
+    $genderErr = "Gender is required";
+  } else {
+    $gender = test_input($_POST["gender"]);
+  }
+}
+?>
+```
+
+### PHP - 显示错误消息
+
+在 HTML 表单中，我们在每个被请求字段后面增加了一点脚本。如果需要，会生成恰当的错误消息（如果用户未填写必填字段就试图提交表单）：
+
+### 实例
+
+```php
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+Name: <input type="text" name="name">
+<span class="error">* <?php echo $nameErr;?></span>
+<br><br>
+E-mail:
+<input type="text" name="email">
+<span class="error">* <?php echo $emailErr;?></span>
+<br><br>
+Website:
+<input type="text" name="website">
+<span class="error"><?php echo $websiteErr;?></span>
+<br><br>
+<label>Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+<br><br>
+Gender:
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="male">Male
+<span class="error">* <?php echo $genderErr;?></span>
+<br><br>
+<input type="submit" name="submit" value="Submit"> 
+
+</form>
+```
+
+接下来是验证输入数据，即“Name 字段是否只包含字母和空格？”，以及“E-mail 字段是否包含有效的电子邮件地址语法？”，并且如果填写了 Website 字段，“这个字段是否包含了有效的 URL？”。
+
+## PHP 表单验证 - 验证 E-mail 和 URL
