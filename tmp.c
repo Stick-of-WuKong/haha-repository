@@ -11,6 +11,10 @@
 def name(){
     print('hello');
 }
+def interfaces(){
+    return 1++;
+}
+
 int main(){
   print("hello github!");
   return 0;
