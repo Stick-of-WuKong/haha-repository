@@ -10,6 +10,7 @@
 #<include>
 def name(){
     print('hello');
+    print('this is the renwy of github')
 }
 def interfaces(){
     return 1++;
