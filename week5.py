@@ -1,7 +1,7 @@
 '''
 Author: yhh
 Date: 2022-09-19 10:10:34
-LastEditTime: 2022-09-19 15:15:15
+LastEditTime: 2022-09-20 17:21:05
 LastEditors: yhh
 Description: 
 FilePath: \PythonFile\week5.py
@@ -45,7 +45,7 @@ class Card():
             card_num = int(card_str) - 1
             self.card_str = self.__class__.cus_card[card_num]
             if(card_str=='2'):
-                floor_num = input('Please input the floor num you are in:')
+                floor_num = input('Please input the number of your room\'s floor:')
                 if(int(floor_num) in [1,2,3,4,5,6,7,8,9,10]):
                     self.floor_num = int(floor_num)
                 else:
@@ -75,14 +75,14 @@ class Hotel():
                 print(f'{i+1}.Get {self.__class__.cus_card[i]}')
             print('q to exit')
             
-            card_num = input('Input number:') 
+            card_num = input('Input the choice:') 
             print('====================================================')
 
             if(card_num=='q'):
                 return
             self.card = Card()
             while(self.card.set_card(card_num)):
-                card_num = input('Input number:')
+                card_num = input('Input the choice:')
             #self.card.set_card(card_num)
             self.second_menu(self.card.show_floor())
         
@@ -94,7 +94,7 @@ class Hotel():
             print('2.Take the freight lift')  
             print('q to exit')
 
-            num = input('Input the number:')
+            num = input('Input the choice:')
             print('====================================================')
 
             if(num=='q'):
