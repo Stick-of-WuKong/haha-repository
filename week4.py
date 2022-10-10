@@ -1,7 +1,7 @@
 '''
 Author: yhh
 Date: 2022-09-16 15:38:55
-LastEditTime: 2022-09-16 20:43:06
+LastEditTime: 2022-09-21 17:40:29
 LastEditors: yhh
 Description:   ebook
 FilePath: \PythonFile\ebook\week4.py
@@ -33,7 +33,7 @@ class Ebook():
             f.seek(progress)
             for i in range(line_num):
                 line = f.readline()
-                if line==NULL:
+                if line.strip()=='':
                     print('End of Book! Thanks for your Reading, You can chose another book to read!')
                     break
                 else:
@@ -140,7 +140,8 @@ class BookShelf():
             elif num_input == '2':
                 try:
                     ebook_path = input("Input the ebook's abspath:")
-                    ebook_name = ebook_path.split('/')[-1][:-4]
+                    ebook_name = ebook_path.split('\\')[-1][:-4]
+                    print(ebook_name)
                     ebook_encoding = chardet.detect(open(ebook_path, 'rb').read(4096))['encoding']
                     ebook = Ebook(ebook_name, ebook_path, ebook_encoding)
                     self.add_ebook(ebook)
