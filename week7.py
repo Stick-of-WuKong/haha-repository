@@ -86,7 +86,8 @@ def rsync(process):
     print('已将文件保存至log.txt中')
     return process
 
-
+def hello():
+    print('hello')
 if __name__ == '__main__':
     with open('week7.json', 'r') as f:
         server = json.loads(f.read())
