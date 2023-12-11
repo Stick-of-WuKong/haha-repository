@@ -1,19 +1,15 @@
 CFLAGS := -Wall
-LDFLAGS := -lpthread
 
-all: 0xdeadbeef
+all: dump_vdso test_payload
 
-0xdeadbeef: 0xdeadbeef.o
+dump_vdso: dump_vdso.o
 	$(CC) -o $@ $^ $(LDFLAGS)
 
-0xdeadbeef.o: 0xdeadbeef.c payload.h
+test_payload: test_payload.o
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+%.o: %.c
 	$(CC) -o $@ -c $< $(CFLAGS)
 
-payload.h: payload
-	xxd -i $^ $@
-
-payload: payload.s
-	nasm -f bin -o $@ $^
-
 clean:
-	rm -f *.o *.h 0xdeadbeef
+	rm -f *.o dump_vdso test_payload
