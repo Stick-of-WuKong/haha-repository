@@ -1,0 +1,38 @@
+{
+  "enableInputTranslation": true,
+  "generalRule": {
+    "isTranslateTitle": false,
+    "lineBreakMaxTextCount": 280,
+    "mouseHoverHoldKey": "·"
+  },
+  "isChangedAlwaysTranslatedUrls": true,
+  "isShowInputTranslationConsent": false,
+  "translationArea": "main",
+  "translationLanguagePattern": {
+    "excludeMatches": [],
+    "matches": []
+  },
+  "translationService": "bing",
+  "translationTheme": "dashedBorder",
+  "translationThemePatterns": {
+    "dashedBorder": {
+      "borderColor": "#202328",
+      "textColor": "#807bcc"
+    },
+    "highlight": {
+      "backgroundColor": "#fffdd1"
+    },
+    "solidBorder": {
+      "borderColor": "#3a271d",
+      "borderRadius": "2",
+      "textColor": "#040101"
+    }
+  },
+  "translationUrlPattern": {
+    "excludeMatches": [],
+    "matches": [
+      "www.mandiant.com"
+    ]
+  },
+  "updatedAt": "2023-09-01T03:09:48.840Z"
+}
