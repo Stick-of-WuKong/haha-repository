@@ -1,0 +1,35 @@
+{
+  "generalRule": {
+    "lineBreakMaxTextCount": 280,
+    "mouseHoverHoldKey": "Ctrl"
+  },
+  "translationLanguagePattern": {
+    "excludeMatches": [],
+    "matches": [
+      "zh-CN",
+      "en"
+    ]
+  },
+  "translationService": "bing",
+  "translationTheme": "highlight",
+  "translationThemePatterns": {
+    "highlight": {
+      "backgroundColor": "#fffdd1"
+    },
+    "solidBorder": {
+      "borderColor": "#3a271d",
+      "borderRadius": "2",
+      "textColor": "#040101"
+    }
+  },
+  "translationUrlPattern": {
+    "excludeMatches": [
+      "http://disk.scan.cm/0906-soft?hash=6b2qz0V8",
+      "disk.scan.cm"
+    ],
+    "matches": [
+      "https://attack.mitre.org/techniques/T1546/008/"
+    ]
+  },
+  "updatedAt": "2023-05-17T06:14:31.426Z"
+}
