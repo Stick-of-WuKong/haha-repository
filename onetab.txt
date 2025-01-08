@@ -1,0 +1,494 @@
+https://blog.csdn.net/weixin_43695820/article/details/123823848 | 从commons-beanutils反序列化到shiro无依赖的漏洞利用_common beanutils反序列化链的版本范围-CSDN博客
+
+https://www.leavesongs.com/PENETRATION/docker-php-include-getshell.html | Docker PHP裸文件本地包含综述 | 离别歌
+https://blog.csdn.net/Hardworking666/article/details/122373938 | PHP反序列化漏洞详解（万字分析、由浅入深）_php反序列化漏洞原理-CSDN博客
+https://www.cnblogs.com/fish-pompom/p/11126473.html | PHP反序列化从初级到高级利用篇 - fish_pompom - 博客园
+https://www.cnblogs.com/superwinner/p/17260940.html | PHP的序列化和反序列化入门 - SuperWinner - 博客园
+https://blog.csdn.net/qq_45521281/article/details/105891381 | PHP序列化反序列化漏洞总结（一篇懂）_php反序列化漏洞-CSDN博客
+https://zhuanlan.zhihu.com/p/90879209 | PHP-Session利用总结 - 知乎
+https://www.zhihu.com/search?type=content&q=PHP-Session%E5%88%A9%E7%94%A8%E6%80%BB%E7%BB%93 | PHP-Session利用总结 - 搜索结果 - 知乎
+https://www.cnblogs.com/seizer/p/17035734.html | ♥ Seizer - 一只笨猪の博客！ - PHP-Session利用总结
+https://www.php.net/manual/zh/function.serialize.php | PHP: serialize - Manual
+https://zhuanlan.zhihu.com/p/88779538 | php中Session使用方法详解（仅学习） - 知乎
+https://www.zhihu.com/question/20981134 | (11 封私信 / 80 条消息) 请教关于php5中session使用的一些基础问题？ - 知乎
+
+https://www.secrss.com/articles/63409 | 网络钓鱼模拟演练的频率一年多少次合适？ - 安全内参 | 决策者的网络安全知识库
+https://www.qianxin.com/trade/detail/tid/161#product-service | 钓鱼邮件专项防御解决方案
+https://www.qianxin.com/service/detail/pid/52 | 钓鱼邮件测试服务-安全实战攻防-奇安信
+https://www.freebuf.com/es/326404.html | 如何快速成为钓鱼达人 - FreeBuf网络安全行业门户
+https://github.com/SecurityPaper/mail_fishing | SecurityPaper/mail_fishing: 甲方安全工程师必备，内部钓鱼系统
+https://www.securitypaper.org/6.project/SDL-1.%E5%86%85%E9%83%A8%E9%92%93%E9%B1%BC%E7%B3%BB%E7%BB%9F/
+https://www.cnblogs.com/yokan/p/15748583.html | (oﾟvﾟ)ノ Hi - 常见钓鱼手法
+https://www.freebuf.com/articles/web/260391.html | 邮件钓鱼入门到入土 - FreeBuf网络安全行业门户
+https://www.freebuf.com/articles/network/267251.html | 红蓝对抗钓鱼篇之从入门到放弃 - FreeBuf网络安全行业门户
+https://blog.csdn.net/Aaron_Miller/article/details/125142382 | 甲方安全之仿真钓鱼演练（邮件+网站钓鱼）_教育系统钓 邮件专项演练方案-CSDN博客
+https://zhuanlan.zhihu.com/p/624406218 | 一篇完整的甲方内部防钓鱼演练方案【可直接抄作业】 - 知乎
+https://blog.csdn.net/gyc1307py42568/article/details/129099170 | NSIS入门教程-CSDN博客
+https://forum.butian.net/share/2532 | 奇安信攻防社区-【Web实战】钓鱼手法及木马免杀技巧
+
+https://blog.csdn.net/qq_62076255/article/details/127955008 | Fuzz初步了解-CSDN博客
+https://blog.csdn.net/qq_61553520/article/details/136920804 | Day76：WEB攻防-Fuzz模糊测试篇&JS算法口令&隐藏参数&盲Payload&未知文件目录_web 模糊测试-CSDN博客
+
+https://www.secrss.com/articles/29598 | ATT&CK实战：Elastic Security初体验&APT29对手模拟 - 安全内参 | 决策者的网络安全知识库
+https://mp.weixin.qq.com/s/RB08joxh-bDwg8L2gJ2hRQ | 第89篇：方程式工具包远程溢出漏洞图形界面版V0.3（内置永恒之蓝、永恒冠军、永恒浪漫等）
+
+https://github.com/cloudflare/cloudflared | cloudflare/cloudflared: Cloudflare Tunnel client (formerly Argo Tunnel)
+https://tokisaki.top/blog/meterpreter-via-cloudflare-argo/ | msf http使用cloudflare argo上线 - Tokisaki Galaxy
+https://tokisaki.top/blog/viper-via-cloudflare-argo/ | 使用Cloudflare Argo隐藏VIPER后台 - Tokisaki Galaxy
+
+https://mp.weixin.qq.com/s/zxWqb4Cqkjzcr2hzQkcx9g | 一文理解Spark的基本概念和工作原理
+
+https://www.cyberark.com/resources/threat-research-blog/dllspy-tighten-your-defense-by-discovering-dll-hijacking-easily | DLLSpy – 通过轻松发现 DLL 劫持来加强防御
+https://bbs.kanxue.com/thread-248050.htm | [原创]一种通用DLL劫持技术研究-编程技术-看雪-安全社区|安全招聘|kanxue.com
+https://anhkgg.com/dllhijack/ | 一种通用Dll劫持技术研究 | Anhkgg'Lab | Windows Kernel | Rootkit | Reverse Engineer | Expolit | 内核研究 | 逆向分析 | 漏洞分析挖掘
+
+https://mp.weixin.qq.com/s/z2dBBkGtuvnSbb1SrWgD3Q | Cobalt-Strike 通过修改配置文件免杀
+
+https://www.cnblogs.com/starrys/p/17127191.html | Java-webshell 排查 - 沉云 - 博客园
+https://goodapple.top/archives/1355#leftbar_tab_catalog | Java安全学习——内存马 - 枫のBlog
+http://blog.o3ev.cn/yy/1509 | Tomcat内存马---Servlet型 - o3Ev的小家
+https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-Jetty-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC | Java利用技巧——Jetty Servlet型内存马
+https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-Jetty-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC | Java利用技巧——Jetty Filter型内存马
+https://www.anquanke.com/post/id/219177#h2-3 | Tomcat 内存马检测-安全客 - 安全资讯平台
+https://github.com/jweny/MemShellDemo | jweny/MemShellDemo: 内存马Demo合集 memshell demo for java / php / python
+https://gv7.me/articles/2020/kill-java-web-filter-memshell/ | 查杀Java web filter型内存马 | 回忆飘如雪
+https://www.anquanke.com/post/id/198886 | 基于内存 Webshell 的无文件攻击技术研究-安全客 - 安全资讯平台
+https://mp.weixin.qq.com/s/x4pxmeqC1DvRi9AdxZ-0Lw | Tomcat 源代码调试笔记 - 看不见的 Shell
+https://www.cnblogs.com/unicodeSec/p/13195183.html | Tomcat基于Servlet的无文件webshell的相关技术研究 - 宽字节安全 - 博客园
+https://mp.weixin.qq.com/s?__biz=MzIxMjEwNTc4NA==&mid=2652991066&idx=1&sn=603d2290830c4aeb88d011ec498b5ad0&scene=21#wechat_redirect | JSP Webshell那些事 -- 攻击篇(上)
+https://www.anquanke.com/post/id/214483#h3-3 | JSP Webshell那些事——攻击篇（下）-安全客 - 安全资讯平台
+https://www.cnblogs.com/rebeyond/p/9686213.html | 【原创】利用“进程注入”实现无文件不死webshell - rebeyond - 博客园
+https://landgrey.me/blog/12/ | LandGrey's Blog
+https://mp.weixin.qq.com/s/1ZiLD396088TxiW_dUOFsQ | Tomcat 源代码调试 - 看不见的 Shell 第二式之隐藏任意 Jsp 文件
+https://www.anquanke.com/post/id/219177 | Tomcat 内存马检测-安全客 - 安全资讯平台
+https://mp.weixin.qq.com/s/GRwEBS1UqsWA3MBvukypNg | python flask 内存马
+
+https://mp.weixin.qq.com/s/vr6H9XkrDH1bluWFxxKixA | Win11 RCE漏洞复现CVE-2023-38146
+https://mp.weixin.qq.com/s/msrrz0yjNNsnX411Sc-1Ng | 【免杀2】过静态--shellcode编码（降熵）
+https://mp.weixin.qq.com/s/sPdYf1jrJMfQ2Qh7uxKhQA | 宝塔渗透手法总结，从常见漏洞 聊到 宝塔维权 再到 bypass disable_functions原理
+https://mp.weixin.qq.com/s/hhLK-ZSLF6ckUZz8J31zhQ | Apache OFBiz 命令执行漏洞分析
+https://mp.weixin.qq.com/s/NlNsYbNH0eBG5EMHJ27a9A | 每周蓝军技术推送（2023.12.30-2024.1.5）
+https://mp.weixin.qq.com/s/6YZXHYwn92i-kwIDNCwtsQ | 获取vCenter锁屏主机hash
+
+https://lock.cmpxchg8b.com/hiew.html | Hiew Hex 编辑器
+https://www.youtube.com/watch?v=M1wvTE988dw&t=465s | HIEW tutorial hexadecimal editor part 1 HD Basics - YouTube
+
+https://mp.weixin.qq.com/s/FN6M0XFbN7j1sPOI1anO5g | 不需要申请内存就能执行shellcode?
+https://mp.weixin.qq.com/s/47GDeYN6X_cgNlwlJA1VPQ | Smbexec绕过Windows Defender
+https://mp.weixin.qq.com/s/SCQ1DWodRPGwOaRWwpg4mA | IDA PRO 01 - 静态逆向分析基础01
+
+https://zhuanlan.zhihu.com/p/451532819 | 揭秘rundll32中的攻防对抗 - 知乎
+https://zhuanlan.zhihu.com/p/467831864 | Windows PrintNightmare 漏洞复现分析 - 知乎
+https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527 | nemo-wq/PrintNightmare-CVE-2021-34527：PrintNightmare - Windows 打印后台处理程序 RCE/LPE 漏洞（CVE-2021-34527、CVE-2021-1675）概念验证漏洞
+
+https://mp.weixin.qq.com/s/AkqX1onuAQQuR-fr7avpzA | Shellcode写入到注册表上线
+https://mp.weixin.qq.com/s/13PwnRQvFeTKBjTff3Q4AA | 红队Tips DLL劫持
+https://mp.weixin.qq.com/s/dhdCWUvPP1JHpG-Ylhbo4w | 如破解受保护的ZIP，PDF，RAR和Word文档的密码：分步指南
+https://mp.weixin.qq.com/s/fwR4M43fv71AbjyJV_Nf8g | 免杀|先锋马免杀分享
+https://mp.weixin.qq.com/s/ujvX0uPzOwcAYr6Dr3K6cw | IcedID木马分析
+https://gitee.com/huang_bai/Penetration_Testing_POC/blob/master/PAM%E5%8A%AB%E6%8C%81SSH%E5%AF%86%E7%A0%81.md | PAM劫持SSH密码.md · huang/Penetration_Testing_POC - Gitee.com
+https://mp.weixin.qq.com/s/ESi0bWF_jQ4nS1-CwjxlEQ | "Operation Triangulation" 卡巴斯基被黑 - 续
+https://mp.weixin.qq.com/s?__biz=Mzg5OTU1NTEwMg==&mid=2247484041&idx=1&sn=176b71f66830f157d623391281def825&chksm=c050c8f8f72741eea19dbb414191d56c6579c4c296ff488c2ceb10ef6ef1a4ff854d00ee9269&scene=21#wechat_redirect | "Operation Triangulation" 卡巴斯基被黑
+https://mp.weixin.qq.com/s/fqbFUpmstjjnFFA5lzjvzQ | 验证码渗透最全总结
+https://mp.weixin.qq.com/s/bL3V1Ix50Qnz3ov5-jKqUQ | 黑客(红队)攻防中关于LNK病毒的制作
+https://mp.weixin.qq.com/s/f_qp4skp6XfI4AAT6GGKGg | 2023第七届强网杯线上赛WriteUp｜Part2
+https://mp.weixin.qq.com/s/Bp4WBRlvEIiqfF5z5oFCfQ | oday！POC管理和漏洞扫描小工具
+https://github.com/Janhsu/oday | Janhsu/oday: javafx编写的poc管理工具和漏洞扫描的小工具
+https://mp.weixin.qq.com/s/1Fi5UmG5HUmwp638EBeeLA | tql！分享几个大佬的内网横向工具
+https://mp.weixin.qq.com/s/mGgutPpgKQqmTPFkcNvnBA | 代理内网情况下MS17-010的稳定利用
+https://3gstudent.github.io/Study-Notes-of-using-sdclt.exe-to-bypass-UAC | Study Notes of using sdclt.exe to bypass UAC
+https://mp.weixin.qq.com/s/1L0n9MjDZRwb4tVnkb7cgA | 红队神兵利器 - Cloudflare 保护的网站的真实 IP 地址
+https://github.com/kunwu2023/kunwu | kunwu2023/kunwu: kunwu是新一代webshell检测引擎，使用了内置了模糊规则、污点分析模拟执行、机器学习三种高效的检测策略
+https://mp.weixin.qq.com/s/o8KeGK1DKFfXCQT2KFdhHA | 蔓灵花（BITTER）近期活跃样本分析
+https://mp.weixin.qq.com/s/O-Y5VhYmOzUPdW2CODn2zw | WAF那些事儿
+https://www.kaspersky.com/blog/malicious-redirect-methods/50045/ | How criminals disguise URLs | Kaspersky official blog
+https://blog.csdn.net/sojrs_sec/article/details/101041462 | Linux 远程连接Windows执行命令方法总结_pth-winexe-CSDN博客
+https://mp.weixin.qq.com/s/XsYWhBCxoVKVZVj3Ct-6ig | 云安全-Docker容器逃逸总结
+https://mp.weixin.qq.com/s/OBmYyl65PwnqXYUazc8RCQ | Docker容器逃逸
+
+https://www.freebuf.com/articles/network/370073.html | 一篇文章讲清楚“什么是委派攻击” - FreeBuf网络安全行业门户
+https://blog.csdn.net/blue_fantasy/article/details/122679165 | 约束委派攻击_约束委派和非约束委派的区别-CSDN博客
+https://www.freebuf.com/articles/web/303666.html | 内网渗透之横向移动 ：委派攻击 - FreeBuf网络安全行业门户
+https://cloud.tencent.com/developer/article/1899592 | 域渗透之委派攻击详解（非约束委派/约束委派/资源委派）-腾讯云开发者社区-腾讯云
+https://mp.weixin.qq.com/s/kOVK_vOB_qWCiifnDmMUIA | 活动目录ACL攻击面总结
+
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_objects?view=powershell-7.4 | 关于对象 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_foreach?view=powershell-7.4 | 关于 Foreach - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_path_syntax?view=powershell-7.4 | 路径语法简介 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.4#-gt--ge--lt-and--le | 关于比较运算符 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/get-command?view=powershell-7.4&viewFallbackFrom=powershell-6 | Get-Command (Microsoft.PowerShell.Core) - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.4 | Get-ChildItem (Microsoft.PowerShell.Management) - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/get-module?view=powershell-7.4 | Get-Module (Microsoft.PowerShell.Core) - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/import-module?view=powershell-7.4 | Import-Module (Microsoft.PowerShell.Core) - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.utility/import-pssession?view=powershell-7.4 | Import-PSSession (Microsoft.PowerShell.Utility) - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/ftype | ftype | Microsoft Learn
+https://learn.microsoft.com/zh-cn/dotnet/api/system.string?view=net-8.0#code-try-10 | String 类 (System) | Microsoft Learn
+https://learn.microsoft.com/zh-cn/dotnet/api/system.management.automation.commandinfo?view=powershellsdk-7.3.0 | CommandInfo Class (System.Management.Automation) | Microsoft Learn
+https://learn.microsoft.com/zh-cn/dotnet/api/system.management.automation.cmdletinfo?view=powershellsdk-7.3.0 | CmdletInfo Class (System.Management.Automation) | Microsoft Learn
+https://learn.microsoft.com/zh-cn/dotnet/api/system.management.automation.aliasinfo?view=powershellsdk-7.3.0 | AliasInfo Class (System.Management.Automation) | Microsoft Learn
+https://learn.microsoft.com/zh-cn/dotnet/api/system.management.automation.applicationinfo?view=powershellsdk-7.3.0 | ApplicationInfo Class (System.Management.Automation) | Microsoft Learn
+https://learn.microsoft.com/zh-cn/dotnet/api/system.management.automation.functioninfo?view=powershellsdk-7.3.0 | FunctionInfo Class (System.Management.Automation) | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_history?view=powershell-7.4 | learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_history?view=powershell-7.4
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-7.4 | 关于数组 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_script_blocks?view=powershell-7.4 | 关于脚本块 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_scopes?view=powershell-7.4 | 关于作用域 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.4 | 配置文件简介 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_quoting_rules?view=powershell-7.4 | 关于引号规则 - PowerShell | Microsoft Learn
+https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_remote?view=powershell-7.4 | 关于远程 - PowerShell | Microsoft Learn
+
+https://www.pstips.net/powershell-online-tutorials | PowerShell 在线教程 – PowerShell 中文博客
+https://mp.weixin.qq.com/s/0RXfaN6TrQdOMzxJYFtd9Q | 内网兵器 - 通过 WMI 协议执行不同的命令执行方式
+
+https://ayusummer.github.io/DailyNotes/NoteTools/VuePress.html | VuePress | DailyNotes
+https://wcowin.work/blog/Mkdocs/mkdocs1/ | 利用Mkdocs部署静态网页至GitHubpages - Wcowin's Web
+https://zhuanlan.zhihu.com/p/628241126 | 全网最好的《Notion》教程！ - 知乎
+https://zhuanlan.zhihu.com/p/95008649 | Notion使用指南 | 基础篇 - 知乎
+
+https://www.freebuf.com/articles/endpoint/358706.html | Shellcode提取、加载与解析 - FreeBuf网络安全行业门户
+https://www.cnblogs.com/henry666/p/17429771.html | (oﾟvﾟ)ノ Hi - 总结加载Shellcode的各种方式
+https://blog.csdn.net/qq_39330735/article/details/130689506 | shellCode免杀技巧_W金刚葫芦娃W的博客-CSDN博客
+https://www.cnblogs.com/cHr1s/articles/14262706.html | C/C++免杀CS shellcode实践 - cHr1s_h - 博客园
+
+https://blog.csdn.net/Eastmount/article/details/97784774 | [网络安全自学篇] 一.入门笔记之看雪Web安全学习及异或解密示例-CSDN博客
+https://blog.csdn.net/weixin_43749601/article/details/115047665?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-115047665-blog-115503946.235%5Ev38%5Epc_relevant_anti_vip_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-115047665-blog-115503946.235%5Ev38%5Epc_relevant_anti_vip_base&utm_relevant_index=2 | 【精选】PowerSploit渗透教程_2021！的博客-CSDN博客
+https://blog.csdn.net/FuWen_Hao/article/details/125865225?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-3-125865225-blog-115503946.235%5Ev38%5Epc_relevant_anti_vip_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-3-125865225-blog-115503946.235%5Ev38%5Epc_relevant_anti_vip_base&utm_relevant_index=6 | 【精选】PowerShell脚本学习-CSDN博客
+https://www.freebuf.com/column/171993.html | Powershell内网渗透利器之PowerSploit - FreeBuf网络安全行业门户
+https://blog.csdn.net/weixin_59711856/article/details/124319383 | 【精选】PowerShell 及 PowerSploit 脚本攻击_利用powershell执行可疑脚本-CSDN博客
+https://www.freebuf.com/sectool/171697.html | PowerShell的内网渗透之旅（一） - FreeBuf网络安全行业门户
+https://blog.csdn.net/Eastmount/article/details/115468089 | 那些年我在CSDN追过的安全白帽师傅，respect_安全博客_Eastmount的博客-CSDN博客
+
+https://cloud.tencent.com/developer/article/2323959 | Vim 后门 | Linux 后门系列-腾讯云开发者社区-腾讯云
+https://zhuanlan.zhihu.com/p/347410599?utm_id=0 | 一文打尽 Linux/Windows端口复用实战 - 知乎
+
+https://cloud.tencent.com/developer/article/2332998 | AD攻防-域用户HashDump追踪之道-腾讯云开发者社区-腾讯云
+
+https://shellcode.blog/Integrating-C3-With-Cobalt-Strike/ | Integrating C3 With Cobalt Strike via ExternalC2 And Studying Their Behavior – Shellcode.Blog – Personal Computer Security Blog.
+https://labs.withsecure.com/tools/c3 | C3 | WithSecure™ Labs
+
+https://mp.weixin.qq.com/s/9lfDXBQn_P7HK6y6XJzePQ | 「 KD-rs 」NoseyParker-用于在文本数据和Git历史记录中查找机密和敏感信息
+https://blog.csdn.net/daibaohui/article/details/113889229 | 木马 --- 基本概念和分类_daibaohui的博客-CSDN博客
+
+https://www.freebuf.com/articles/database/285538.html | 系统监视器(Sysmon)工具的使用 - FreeBuf网络安全行业门户
+https://learn.microsoft.com/zh-tw/sysinternals/downloads/sysmon | Sysmon - Sysinternals | Microsoft Learn
+https://www.jianshu.com/p/43bf5aadfd28 | sysmon安装配置及其使用 - 简书
+https://blog.csdn.net/travelnight/article/details/123018881 | Sysmon工具使用_travelnight的博客-CSDN博客
+https://www.secrss.com/articles/12585 | 应急响应：三款实用的Sysmon辅助分析工具 - 安全内参 | 决策者的网络安全知识库
+
+https://www.freebuf.com/articles/web/307773.html | 权限维持专题：域控制器权限维持(下篇) - FreeBuf网络安全行业门户
+
+https://mp.weixin.qq.com/s?chksm=f9e7de88ce90579e91793b886c81c35be1b2fbf3b56ca6557a9f6fc5f2e920300c81e6d6dcdb&exptype=timeline_feeds_article_socialrecall_strategy_v1_tlfeeds&mid=2247491611&sn=181e433a298a6241114a4325031d5f34&idx=1&__biz=MzUyMDc2MDMxNg%3D%3D&scene=169&subscene=200&sessionid=1694826824&flutter_pos=24&clicktime=1694827006&enterid=1694827006&finder_biz_enter_id=5&ascene=56&fasttmpl_type=0&fasttmpl_fullversion=6857646-zh_CN-zip&fasttmpl_flag=0&realreporttime=1694827006469&devicetype=android-31&version=4.1.3.6008&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&session_us=gh_699272b22fab&countrycode=CN&exportkey=n_ChQIAhIQxCni6Ounvmsgg4B0jiziixLgAQIE97dBBAEAAAAAAFdWDe0Z%2BqwAAAAOpnltbLcz9gKNyK89dVj0p4nCBFNuuX1f66G5TEJCkLmlI%2BnQnBbqDiruBGAIOG27E95K4PgqOrb4KHV0BxEdDYoSV%2FCVZ55pUvwcfGviSbRI8Q3YYkwmivLd21TSFx3IjoFEhXfdXczybkJfAP9Y0HbRQZs6BXZXzQPFnVVmzqDIrm4IpJBuEfyDwE9%2ByI5v6jI3%2BMNqYcomtsP6HFofyHeSNCCY67OqezBlpQovGYl1uuihlAYdvR20n%2Bq%2BtkQWm6cyDNAUDhWy&pass_ticket=J50RvsersaDygEocUoej4ddFAgOh4ax7t7XL7tOT9YGkmuDPcPBDVC%2FdLVGy7RU2&wx_header=3&platform=win | 代码结构分析神器：SourceTrail
+
+https://cloud.tencent.com/developer/article/1945253 | CVE-2021-4034 polkit（pkexec）提权漏洞复现-腾讯云开发者社区-腾讯云
+
+https://mp.weixin.qq.com/s/8TGkl3iLzji1XDdjmgbF2g | 工具 | Burpsuite各个模块详细使用---上（建议收藏）
+
+https://mp.weixin.qq.com/s/oAiGWY9ABhn2o148snA_sg | jMG - 高度自定义的 Java 内存马生成工具
+https://www.yaklang.io/products/intro/ | Yakit: 集成化单兵安全能力平台 | Yak Program Language
+
+https://www.freebuf.com/articles/system/248686.html | 后渗透系列之下载文件（Linux篇） - FreeBuf网络安全行业门户
+https://blog.csdn.net/yetyongjin/article/details/102872551 | 第十五章 VoIP 安全_friendly-scanner_云梦谭的博客-CSDN博客
+
+https://cn.bing.com/search?go=%E6%90%9C%E7%B4%A2&q=phpmyadmin%E6%9C%AA%E6%8E%88%E6%9D%83%E6%BC%8F%E6%B4%9E%E6%B1%87%E6%80%BB&qs=ds&form=QBRE | phpmyadmin未授权漏洞汇总 - 搜索
+https://www.freebuf.com/articles/web/271347.html | Spring Boot漏洞exploit利用方法渗透技巧汇总 - FreeBuf网络安全行业门户
+https://www.freebuf.com/column/234719.html | Spring Boot Actuator从未授权访问到getshell - FreeBuf网络安全行业门户
+https://blog.csdn.net/m0_67403188/article/details/126115162 | SpringBoot漏洞大全_spring-boot 2.4.3代码执行漏洞_普通网友的博客-CSDN博客
+https://blog.csdn.net/qq_31481187/article/details/77887556 | CVE-2017-9805（Struts2 漏洞复现与分析）_4ct10n的博客-CSDN博客
+https://mp.weixin.qq.com/s/6_j38gpvTfCVDTcCYizCYA | vulntarget-j Writeup
+https://mp.weixin.qq.com/s/-h65qdfCcTe_8c0Tvmb10A | vulntarget漏洞靶场系列（十）— vulntarget-j
+https://blog.csdn.net/qq_36197704/article/details/109385695 | 禅道CMS文件上传漏洞（CNVD-C-2020-121325）_chaojixiaojingang的博客-CSDN博客
+https://www.freebuf.com/vuls/249813.html | CVE-2020-1472漏洞分析 - FreeBuf网络安全行业门户
+https://www.cnblogs.com/xiaozi/p/13678055.html | CVE-2020-1472: NetLogon特权提升漏洞（附exp复现） - Bypass - 博客园
+https://blog.csdn.net/qq_41874930/article/details/108994480 | CVE-2020-1472复现与完整利用_Shanfenglan7的博客-CSDN博客
+https://cn.bing.com/search?q=cve-2021-42278&form=ANNTH1&refig=f14294b2bf0e48ab980a278e6edfef41 | cve-2021-42278 - 搜索
+https://www.freebuf.com/vuls/317773.html | 域内提权漏洞CVE-2021-42287与CVE-2021-42278原理分析 - FreeBuf网络安全行业门户
+https://blog.csdn.net/Captain_RB/article/details/125569452 | 域内提权 (CVE-2021-42278 & CVE-2021-42287) 漏洞利用_nopac漏洞修复_Captain_RB的博客-CSDN博客
+https://github.com/WazeHell/sam-the-admin | WazeHell/sam-the-admin: Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user
+https://github.com/Ridter/noPac | Ridter/noPac: Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user
+
+https://blog.csdn.net/qq_32393893/article/details/109327723 | Cobalt Strike之与msf互相派生shell_shy014的博客-CSDN博客
+https://blog.csdn.net/qq_44159028/article/details/124278770 | msf与cs互传shell_msf怎么打不回去shell给cs_山山而川'的博客-CSDN博客
+https://blog.csdn.net/weixin_44288604/article/details/119456115 | 细说——CS联动MSF_lainwith的博客-CSDN博客
+
+https://mp.weixin.qq.com/s/zHOx6M2CX_H9FqYu-mWy0g | Nessus_win_20230718插件_附破解脚本
+https://mp.weixin.qq.com/s/oM-n6nRBbxp1ic5RKx1pUQ | burp插件支持fastjson扫描,权限绕过,未授权检测,sql注入检测,工具调用
+https://www.freebuf.com/articles/web/373114.html | 攻防演练 | 记一次打穿xx公司域控 - FreeBuf网络安全行业门户
+https://mp.weixin.qq.com/s/LdP4AiatVjwpK1fNKedJ8Q | 攻防演练从钓鱼上线到内网漫游
+
+https://blog.csdn.net/qq_36197704/article/details/122082732 | Windows域服务权限提升漏洞（CVE-2021-42287, CVE-2021-42278）_chaojixiaojingang的博客-CSDN博客
+https://cn.bing.com/search?pglt=161&q=CVE-2020-1472+Netlogon&cvid=c965e9c20edc4d2c812ed2230fff28ea&aqs=edge..69i57j0l8.541j0j1&FORM=ANAB01&PC=U531&mkt=zh-CN | CVE-2020-1472 Netlogon - 搜索
+https://www.jianshu.com/p/525be0335404 | CVE-2020-1472域内提权漏洞利用 - 简书
+https://blog.csdn.net/FHLZLHQ/article/details/121964692 | 域控漏洞-CVE-2021-42287&42278复现_君行路V的博客-CSDN博客
+https://cn.bing.com/search?pglt=161&q=CVE-2020-0796+SmbGhost&cvid=da20b102bd0c435ea70fc707d5e91b73&aqs=edge..69i57j0l8.718j0j1&FORM=ANNTA1&PC=WSEDSE | CVE-2020-0796 SmbGhost - 搜索
+https://blog.csdn.net/qq_45372008/article/details/106980409 | SMBGhost_RCE漏洞（CVE-2020-0796）复现_"file \"/home/kali/smbghost_rce_poc/exploit.py\", _越今朝!的博客-CSDN博客
+https://cn.bing.com/search?q=cve-2020-42287&form=ANNTH1&refig=3d9f83b1599e4998b3149fa42fab66ba | cve-2020-42287 - 搜索
+https://blog.csdn.net/blackmanren/article/details/83587785?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-4 | trap signal_"trap \"signalcatcher\" term"__Black铁木真的博客-CSDN博客
+https://www.cnblogs.com/f-ck-need-u/p/7454174.html | 为shell布置陷阱：trap捕捉信号方法论 - 骏马金龙 - 博客园
+http://www.jinbuguo.com/systemd/udevadm.html | udevadm 中文手册 [金步国]
+https://www.cnblogs.com/yuanqiangfei/p/9138625.html | shell中的dd命令使用详解 - 轻轻的吻 - 博客园
+https://dbus.freedesktop.org/doc/dbus-uuidgen.1.html | dbus-uuidgen
+https://dbus.freedesktop.org/doc/dbus-daemon.1.html | dbus-daemon
+https://stackoverflow.com/questions/48983917/what-exactly-does-ssh-keygen-a-do | linux - What exactly does `ssh-keygen -A` do? - Stack Overflow
+
+https://blog.csdn.net/qq_43593134/article/details/120061536 | Nessus扫描太慢怎么办？Nessus安装以及扫描踩坑记录_提高nessus扫描速度_nzyp_的博客-CSDN博客
+
+https://xz.aliyun.com/t/4038 | 白话二进制漏洞攻击方式第二部分 - 先知社区
+https://xz.aliyun.com/t/3980 | 白话二进制漏洞攻击方式第一部分 - 先知社区
+https://zhuanlan.zhihu.com/p/539908047 | 如何在 Linux 上动态链接模块库 | Linux 中国 - 知乎
+https://zhuanlan.zhihu.com/p/540591571 | Linux 上静态链接库工作原理 | Linux 中国 - 知乎
+
+https://zhuanlan.zhihu.com/p/462248726 | Linux Polkit权限提升漏洞复现&分析(CVE-2021-4034) - 知乎
+https://blog.csdn.net/laobanjiull/article/details/122715651 | CVE-2021-4034：Linux Polkit 权限提升漏洞复现及修复_Acczdy的博客-CSDN博客
+https://blog.csdn.net/qq_53577336/article/details/119057149 | w13scan的安装与使用_告白热的博客-CSDN博客
+https://blog.csdn.net/qq_56426046/article/details/126828052 | w13scan被动扫描器使用_夜yesir的博客-CSDN博客
+https://www.cnblogs.com/lcxblogs/p/14260696.html | 安全工具推荐之w13scan篇 - anoldcat - 博客园
+https://www.jianshu.com/p/fa412af29c81 | MSHTA命令执行——绕过应用白名单限制 - 简书
+
+https://www.cnblogs.com/backlion/p/8127868.html#:~:text=%E9%BB%84%E9%87%91%E7%A5%A8%E6%8D%AE%E6%98%AF%E4%BC%AA%E9%80%A0%E7%A5%A8%E6%8D%AE%E6%8E%88%E4%BA%88%E7%A5%A8%E6%8D%AE%EF%BC%88TGT%EF%BC%89%EF%BC%8C%E4%B9%9F%E8%A2%AB%E7%A7%B0%E4%B8%BA%E8%AE%A4%E8%AF%81%E7%A5%A8%E6%8D%AE%E3%80%82.%20%E5%A6%82%E4%B8%8B%E5%9B%BE%E6%89%80%E7%A4%BA%EF%BC%8C%E4%B8%8E%E5%9F%9F%E6%8E%A7%E5%88%B6%E5%99%A8%E6%B2%A1%E6%9C%89AS-REQ%E6%88%96AS-REP%EF%BC%88%E6%AD%A5%E9%AA%A41%E5%92%8C2%EF%BC%89%E9%80%9A%E4%BF%A1%E3%80%82.%20%E7%94%B1%E4%BA%8E%E9%BB%84%E9%87%91%E7%A5%A8%E6%8D%AE%E6%98%AF%E4%BC%AA%E9%80%A0%E7%9A%84TGT%EF%BC%8C%E5%AE%83%E4%BD%9C%E4%B8%BATGS-REQ%E7%9A%84%E4%B8%80%E9%83%A8%E5%88%86%E8%A2%AB%E5%8F%91%E9%80%81%E5%88%B0%E5%9F%9F%E6%8E%A7%E5%88%B6%E5%99%A8%E4%BB%A5%E8%8E%B7%E5%BE%97%E6%9C%8D%E5%8A%A1%E7%A5%A8%E6%8D%AE%E3%80%82.%20Kerberos%E9%BB%84%E9%87%91%E7%A5%A8%E6%8D%AE%E6%98%AF%E6%9C%89%E6%95%88%E7%9A%84TGT%20Kerberos%E7%A5%A8%E6%8D%AE%EF%BC%8C%E5%9B%A0%E4%B8%BA%E5%AE%83%E6%98%AF%E7%94%B1%20%E5%9F%9FKerberos%E5%B8%90%E6%88%B7%EF%BC%88KRBTGT%EF%BC%89%20%E5%8A%A0%E5%AF%86%E5%92%8C%E7%AD%BE%E5%90%8D%E7%9A%84,%E3%80%82.%20TGT%E4%BB%85%E7%94%A8%E4%BA%8E%E5%90%91%E5%9F%9F%E6%8E%A7%E5%88%B6%E5%99%A8%E4%B8%8A%E7%9A%84KDC%E6%9C%8D%E5%8A%A1%E8%AF%81%E6%98%8E%E7%94%A8%E6%88%B7%E5%B7%B2%E8%A2%AB%E5%85%B6%E4%BB%96%E5%9F%9F%E6%8E%A7%E5%88%B6%E5%99%A8%E8%AE%A4%E8%AF%81%E3%80%82.%20TGT%E8%A2%ABKRBTGT%E5%AF%86%E7%A0%81%E6%95%A3%E5%88%97%E5%8A%A0%E5%AF%86%E5%B9%B6%E4%B8%94%E5%8F%AF%E4%BB%A5%E8%A2%AB%E5%9F%9F%E4%B8%AD%E7%9A%84%E4%BB%BB%E4%BD%95KDC%E6%9C%8D%E5%8A%A1%E8%A7%A3%E5%AF%86%E7%9A%84%E3%80%82.%20%E9%BB%84%E9%87%91%E7%A5%A8%E6%8D%AE%E7%9A%84%E6%9D%A1%E4%BB%B6%E8%A6%81%E6%B1%82%EF%BC%9A.%201.%E5%9F%9F%E5%90%8D%E7%A7%B0%20%5BAD%20PowerShell%E6%A8%A1%E5%9D%97%EF%BC%9A%EF%BC%88Get-ADDomain%EF%BC%89.DNSRoot%5D%20 | Kerberos的黄金票据详解 - 渗透测试中心 - 博客园
+https://blog.csdn.net/ping_pig/article/details/119446154 | WMI的讲解(是什么，做什么，为什么)_Ping_Pig的博客-CSDN博客
+http://vulnstack.qiyuanxuetang.net/vuln/detail/9/ | 漏洞详情
+https://www.freebuf.com/articles/network/264560.html | 自主搭建的三层网络域渗透靶场打靶记录 - FreeBuf网络安全行业门户
+https://mp.weixin.qq.com/s/sZtEQnbb2mLpuxxaxsVeKA | 红队技巧：基于反向代理的水坑攻击
+
+https://mp.weixin.qq.com/s/oJvpiUx05ACTjwbZyjU1Vg | 基于python pyd的shellcode免杀绕过
+https://mp.weixin.qq.com/s/L7LiCwlhWJUilkM0UXoqeg | 免杀工具|强大的Anti-Virus对抗工具
+https://mp.weixin.qq.com/s/2gOK8JigDrxvy9yf3xXLHg | Regasm白名单执行Ladon
+https://mp.weixin.qq.com/s/YVR8UiPbm5a9XPzFCRrK0A | certutil在杀软中的绕过实践
+https://mp.weixin.qq.com/s/lyULJxZTF0CRT4mxp-5DZg?vid=1688856422407762&deviceid=dfe3ea2c-f6be-4b0b-adb7-7221e85d2e4c&version=4.1.3.6008&platform=win | 经典病毒上线流量分析-Lokibot
+https://www.freebuf.com/vuls/161753.html | Microsoft Office内存损坏漏洞（CVE-2017-11882）实战 - FreeBuf网络安全行业门户
+https://mp.weixin.qq.com/s?__biz=MzUzMDUxNTE1Mw==&mid=2247501930&idx=1&sn=d5cc1b5b51924901fabfb27c0ad48b28&chksm=fa521dd4cd2594c2a9a186b2258462f16bbfdd945c1e847a7632a2c19f31893d03f35b7fa5ad&sessionid=1691052016&scene=126&subscene=91&clicktime=1691052036&enterid=1691052036&ascene=3&fasttmpl_type=0&fasttmpl_fullversion=6791768-zh_CN-zip&fasttmpl_flag=0&realreporttime=1691052036757&devicetype=android-33&version=4.1.3.6008&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&session_us=gh_94beeafaf804&countrycode=CN&exportkey=n_ChQIAhIQWB8SEBmETESCGuwaBY6eVhLrAQIE97dBBAEAAAAAABg%2BKyLCaVYAAAAOpnltbLcz9gKNyK89dVj0m9%2FRwANoIKyKR1D4D1mGe4RFNOyxo9DzSFK%2F5uW%2Bj5gfG4%2B1%2BZ1ZEbWUuFDd2xvtjbfS56A%2Bh06hKHJlqLBZFPZxtVuDyEOnGPDD%2F8AfkpunOce9S94xeGrmHVgRFsNoPnx2K2eZiqpx9fEc1a70cQZMnVL2CnKKPRNTO42lnK%2FwZzogtHlqjVi%2B4ZKQlME0JV5yl9jv3l4nyLNW90U0srP4mMMmVPkvD5VRo%2FTPYhyX0b%2F83jXPY7Rgd8uJgnRef6xd0R4%3D&pass_ticket=N3g1eGCRQRkNapC5pyAqyPLv0cHlA2MQjuwB2F75JBnJlFIu%2BE7YQE0vCq5%2BAnav&wx_header=3&platform=win | 逆向工程系列 | Ghidra for Beginner IV
+https://www.52pojie.cn/thread-1157955-1-1.html | 蠕虫病毒“柠檬鸭”持续扩散 多种暴破方式攻击用户电脑 - 『病毒分析区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn
+https://zhuanlan.zhihu.com/p/535177389 | 二进制漏洞分析与挖掘 - 知乎
+https://www.52pojie.cn/thread-1346660-1-1.html | 柠檬鸭（Lemon Duck）样本分析 - 『病毒分析区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn
+
+https://mp.weixin.qq.com/s/PPUZI0WxaB7hkvWeudkwmw | SRC混子的漏洞挖掘之道
+https://www.freebuf.com/articles/network/264560.html | 自主搭建的三层网络域渗透靶场打靶记录 - FreeBuf网络安全行业门户
+https://cloud.tencent.com/developer/article/1942519 | Windows内网渗透常用命令总汇-腾讯云开发者社区-腾讯云
+https://mp.weixin.qq.com/s/BxcTOT1ggtH2TJPvOl52xA?vid=1688856422407762&deviceid=dfe3ea2c-f6be-4b0b-adb7-7221e85d2e4c&version=4.1.3.6008&platform=win | 如何做好个人防护？
+https://mp.weixin.qq.com/s/IsnMUTe5oYTUZE9Q78jFyA | 记一次平平无奇有手就行的幸运域控
+https://mp.weixin.qq.com/s/iPv5sT50orqW79SmbVaFEQ | 某攻防演练中打穿XX成功拿下域控
+https://mp.weixin.qq.com/s/mUwgNKUHbC9kBNisZ97Kcw | 横向渗透中PSExec、SMBExec和WMIExec的使用及特征
+https://mp.weixin.qq.com/s/ulQv8fbkIX_F-sdYUHUKPA | 记一次堆叠注入拿shell的总结
+https://mp.weixin.qq.com/s/O6bTCOBCNt_w27pYA7lhjg?st=FA974F075836A8272D12178D0C39BCA9D574D1261DCCF4B87AC94DEE4FDB9E83FAE4B640FCE5F73627B44C3CA918FE5FC61C419B14C21DB6CEF993680121FCF56CC7F52D11053A40DA75AA5A8C4C71139FA6BDE691D766F52989A70F5D4F6D079E03D02407D7EC38B02031BBAB8774634CF93993F51E7B46586B41D06B43BFA5FE43507B64CAE7ED4A1B1389F14494326F36B417146EFDAFF08C8A94C5E4CB3CE8452B11C9A22C24FF025AE3799A047D5D13A2E3A82F0FA3C294512BA05376CC318A20A0F371E9B5A5B9F2B4877A0DC8B385CE7226A7BC8BF405AE202C4395982A5CA305EB2C8A4D7A18A0284D55FE70&vid=1688856422407762&cst=4BB5E93B03CEEBD4BDB61663334C36F3732D789A94EEB2305B441299C3E951E13BD33D713111CB5F4FE78E7820D7403B&deviceid=dfe3ea2c-f6be-4b0b-adb7-7221e85d2e4c&version=4.0.8.6604&platform=win | 实战 | 某次HW攻防演练红队渗透总结
+https://blog.csdn.net/qq_48985780/article/details/121441548 | Msfvenom介绍及利用_xzhome的博客-CSDN博客
+https://mp.weixin.qq.com/s/CRhyAtH-0epOzpEkKbqj3Q | Linux权限提升系列：内核、SUID、脏牛等提权（建议收藏）
+https://mp.weixin.qq.com/s?__biz=MzAwMjA5OTY5Ng%3D%3D&mid=2247516593&idx=1&sn=aeb41f66998d5b76945016c328753549&chksm=9acd512eadbad8382104799db6ba96fe0dc6095f637d7510ae5bc63dba2e5e33b72aebbc797a&scene=262&from=industrynews&version=4.1.0.6011&platform=win | 实战|记一次从供应链的未授权访问到重大成果
+https://blog.csdn.net/weixin_54648419/article/details/123732412 | 红日安全vulnstack-ATT&CK实战系列 红队实战(四)_att&ck 红日vulnstack4_Ys3ter的博客-CSDN博客
+https://mp.weixin.qq.com/s/jskETonsf4b-2u6NGKzvGg | 【实战】记一次挖矿应急响应
+https://mp.weixin.qq.com/s/YWhJ_pFWbfztWeQl2KxKqg | Powershell-免杀：没有 PowerShell.exe 的 PowerShell --- Powershell-免杀：没有 PowerShell.exe 的 PowerShell
+https://mp.weixin.qq.com/s/VYm2ypryWRAsqb4mJSytoA | 第25篇：冰蝎2.x过流量检测改造的全过程
+https://blog.csdn.net/weixin_45632448/article/details/127343319 | 【红日靶场系列】ATT&CK红队评估7_青果@的博客-CSDN博客
+https://blog.csdn.net/qq_44159028/article/details/128800727 | (4条消息) 通过Bypass UAC进行权限提升_bypassuac_山山而川'的博客-CSDN博客
+https://github.com/Liuk3r/CVE-2023-32233 | Liuk3r/CVE-2023-32233: CVE-2023-32233: Linux内核中的安全漏洞
+https://medium.com/@nasbench/demystifying-the-svchost-exe-process-and-its-command-line-options-508e9114e747 | Demystifying the “SVCHOST.EXE” Process and Its Command Line Options | by Nasreddine Bencherchali | Medium --- 揭开“SVCHOST.EXE”进程及其命令行选项的神秘面纱 |作者：纳斯尔丁·本彻查利 |中等
+https://mp.weixin.qq.com/s/N4M4GOsqKcgH46J33-4THA | 干货分享 | 巧过360 核晶(内含思路+代码)
+
+https://blog.csdn.net/qq_41880069/article/details/82908131 | 永恒之蓝 MS17-010漏洞复现_MX-LQ的博客-CSDN博客
+https://blog.csdn.net/Ch_an_ger/article/details/106864685 | CVE-2017-0143(远程溢出)漏洞复现_upnp cve2017_crazy' 夏末的博客-CSDN博客
+https://blog.csdn.net/qq_41880069/article/details/82908293 | meterpreter模块之后渗透攻击实战总结_MX-LQ的博客-CSDN博客
+
+https://blog.csdn.net/YouthBelief/article/details/121020672 | (3条消息) Redis漏洞利用总结_YouthBelief的博客-CSDN博客
+https://www.cnblogs.com/morgan363/p/13719830.html | 【Redis之疑难解析】(error) READONLY You can't write against a read only slave - morgan363 - 博客园
+https://xz.aliyun.com/t/7491#:~:text=%E5%86%B0%E8%9D%8E%E7%9A%84%E4%BD%9C%E8%80%85rebeyond%E5%A4%A7%E4%BD%AC%E5%9C%A8%E6%96%87%E7%AB%A0,%E5%88%A9%E7%94%A8%E5%8A%A8%E6%80%81%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%8A%A0%E5%AF%86%E5%AE%9E%E7%8E%B0%E6%96%B0%E5%9E%8B%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%9C%A8%E9%A9%AC%E4%B9%8BJava%E7%AF%87%20%E4%B8%AD%E6%8F%90%E5%87%BA%E4%BA%86%E4%B8%80%E7%A7%8D%E6%96%B0%E7%9A%84jsp%E4%B8%80%E5%8F%A5%E8%AF%9D%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%EF%BC%9A%E5%88%A9%E7%94%A8classloader%E7%9B%B4%E6%8E%A5%E8%A7%A3%E6%9E%90%E7%BC%96%E8%AF%91%E5%90%8E%E7%9A%84class%E5%AD%97%E8%8A%82%E7%A0%81%EF%BC%8C%E7%9B%B8%E5%BD%93%E4%BA%8E%E5%AE%9E%E7%8E%B0%E4%BA%86%E4%B8%80%E4%B8%AAjava%E7%9A%84eval%E5%8A%9F%E8%83%BD%E3%80%82 | 蚁剑改造计划之实现JSP一句话 - 先知社区
+https://blog.csdn.net/TsengYUen920/article/details/84854274 | JSP一句话木马_TsengYUen920的博客-CSDN博客
+https://blog.csdn.net/wwl012345/article/details/89421881 | 永恒之蓝漏洞利用及攻击_想走安全的小白的博客-CSDN博客
+https://blog.csdn.net/ElsonHY/article/details/109939420 | MS17-010（Eternal blue永恒之蓝）漏洞利用+修复方法_RDrug的博客-CSDN博客
+https://blog.csdn.net/qq_19623861/article/details/117061627 | ms17_010（永恒之蓝）漏洞渗透步骤——MSF_我重来不说话的博客-CSDN博客
+https://blog.csdn.net/qq_43645782/article/details/106870256 | msf下MS17-010模块使用总结_msf ms17010_whojoe的博客-CSDN博客
+https://blog.csdn.net/qq_53079406/article/details/124918838 | 【MSFconsole进阶】Payload（攻击载荷模块）：payload分类、相关命令、使用方法_msf payload_黑色地带(崛起)的博客-CSDN博客
+
+https://www.cnblogs.com/morgan363/p/13719830.html | 【Redis之疑难解析】(error) READONLY You can't write against a read only slave - morgan363 - 博客园
+https://blog.csdn.net/weixin_46439278/article/details/118313113 | redis未授权访问getshell的方式_southerose的博客-CSDN博客
+https://www.cnblogs.com/one-seven/p/15162039.html | redis未授权getshell的4种方式 - one-seven - 博客园
+
+https://www.ddosi.org/etw/ | 使用ETW检测进程注入|Windows事件跟踪 - 🔰雨苁ℒ🔰
+https://hackbalak.github.io/posts/ETW-TI-Provider/ | Getting started with the Microsoft-Windows-Threat-Intelligence ETW Provider | HackBalak blog
+https://xz.aliyun.com/t/11072 | 深入理解反射式dll注入技术 - 先知社区
+https://zhuanlan.zhihu.com/p/33635546 | fileless malware技术解析及检测 - 知乎
+
+https://cn.bing.com/search?q=CVE-2021-35464&FORM=BESBTB&refig=25edeba2d9b9471e9f529648240ad0e8 | CVE-2021-35464 - 搜索
+https://github.com/Y4er/openam-CVE-2021-35464 | Y4er/openam-CVE-2021-35464: openam-CVE-2021-35464 tomcat 执行命令回显
+https://portswigger.net/research/pre-auth-rce-in-forgerock-openam-cve-2021-35464 | ForgeRock OpenAM 中的预身份验证 RCE （CVE-2021-35464） |斯威格港研究
+https://blog.csdn.net/wangyuxiang946/article/details/121437554 | CVE-2021-35464: ForgeRock AM远程代码执行漏洞_士别三日wyx的博客-CSDN博客
+https://blog.csdn.net/weixin_44146996/article/details/118418676?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-118418676-blog-121437554.235^v27^pc_relevant_3mothn_strategy_recovery&spm=1001.2101.3001.4242.1&utm_relevant_index=1 | ForgeRock AM远程代码执行漏洞(CVE-2021-35464)漏洞复现_forgerok openam 代码执行 (cve-2021-35464)_MD@@nr丫卡uer的博客-CSDN博客
+https://zhuanlan.zhihu.com/p/486923010 | HG532e漏洞复现(cve-2017-17215) - 知乎
+https://blog.csdn.net/wuyou1995/article/details/109607992 | CVE-2017-17215 HG532e 远程命令执行漏洞分析_Tig3rHu的博客-CSDN博客
+https://blog.csdn.net/weixin_44309905/article/details/121559936 | CVE-2021-36749——Apache Druid LoadData 任意文件读取漏洞_李白你好的博客-CSDN博客
+https://www.cnblogs.com/cn-gov/p/15572281.html | 【漏洞复现】CVE-2021-36749 Apache Druid LoadData 任意文件读取漏洞 - Adminxe - 博客园
+https://blog.csdn.net/qq_53079406/article/details/127344910?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-127344910-blog-121559936.235%5Ev27%5Epc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-127344910-blog-121559936.235%5Ev27%5Epc_relevant_3mothn_strategy_recovery&utm_relevant_index=3 | 【漏洞复现-druid-任意文件读取】vulfocus/druid-cve_2021_36749_druid 漏洞复现_黑色地带(崛起)的博客-CSDN博客
+https://www.baidu.com/s?ie=UTF-8&wd=CVE-2021-36749 | CVE-2021-36749_百度搜索
+
+https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247531978&idx=2&sn=928619797f1d63e16e6ad7ef705700fa&chksm=fa93cb0bcde4421d39513d129745673cc20287a97a5b6ce69e94ce42f0fda12de6de920db584&scene=27&vid=1688856422407762&deviceid=dfe3ea2c-f6be-4b0b-adb7-7221e85d2e4c&version=4.1.0.6011&platform=win | 简析五种常用勒索软件检测技术的特点和不足
+https://mp.weixin.qq.com/s/MiPhg5Y5UBWbB7zxP59kRw | 记一次用reGeorg+Proxifier内网代理登录服务器
+https://zhuanlan.zhihu.com/p/261298349 | Cobalt Strike模块详解&功能详解 - 知乎
+https://blog.csdn.net/qq_34640691/article/details/110686135?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110686135-blog-126803186.235%5Ev27%5Epc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110686135-blog-126803186.235%5Ev27%5Epc_relevant_3mothn_strategy_recovery&utm_relevant_index=2 | Powershell攻击指南2——Empire_powershsell empire_willowpy的博客-CSDN博客
+
+https://paper.seebug.org/2053/ | 黑客背后的猎人
+https://paper.seebug.org/2056/ | psexec 原理分析和实现
+
+https://paper.seebug.org/2055/ | FastJson 与原生反序列化
+https://www.anquanke.com/post/id/202730 | ysoserial Java 反序列化系列第一集 Groovy1-安全客 - 安全资讯平台
+https://cloud.tencent.com/developer/article/1957185 | 浅析FastJSON反序列化漏洞（1.2.24——1.2.68） - 腾讯云开发者社区-腾讯云
+https://www.cnblogs.com/Aurora-M/p/15683941.html | (oﾟvﾟ)ノ Hi - 【Fastjson】Fastjson反序列化由浅入深
+https://blog.csdn.net/qq_35733751/article/details/119948833 | 13-java安全——fastjson1.2.24反序列化TemplatesImpl利用链分析_fastjson objectdeserializer_songly_的博客-CSDN博客
+https://www.freebuf.com/articles/web/258253.html | fastjson 1.2.24 反序列化 RCE 漏洞复现 - FreeBuf网络安全行业门户
+https://blog.csdn.net/jinzezhi/article/details/124274123 | Fastjson反序列化漏洞复现(实战案例)_@A1的博客-CSDN博客
+https://www.cnblogs.com/renhaoblog/p/13033723.html | (oﾟvﾟ)ノ Hi - Fastjson远程代码执行漏洞复现
+https://cn.bing.com/search?q=fastjson%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E&form=ANNNB1&refig=65c8f35dc2bb462f83bcbd370da82d12 | fastjson反序列化远程代码执行漏洞 - 搜索
+
+https://www.cnblogs.com/v1vvwv/p/ms17-010-exploit.html | 【漏洞复现】永恒之蓝 ms17-010 漏洞利用 攻击手法 - Bay0net - 博客园
+https://betheme.net/news/txtlist_i126394v.html?action=onClick | NTLMv2和v1 hash 破解 （smb 协议 用户密码破解）
+https://cloud.tencent.com/developer/article/1802251 | Weblogic漏洞利用总结 - 腾讯云开发者社区-腾讯云
+https://cloud.tencent.com/developer/article/1745180 | 【漏洞复现】Weblogic漏洞复现：CVE-2020-14882未授权代码执行 - 腾讯云开发者社区-腾讯云
+https://blog.csdn.net/m0_48108919/article/details/123983141 | WebLogic历史漏洞汇总与复现_weblogic漏洞_码啊码的博客-CSDN博客
+https://zhuanlan.zhihu.com/p/55484970 | 渗透测试入门指南与路线规划（全文版） - 知乎
+
+https://blog.csdn.net/woaisk/article/details/97516522 | (3条消息) CVE-2019-11580 Atlassian Crowd RCE漏洞复现_墙角睡大觉的博客-CSDN博客
+https://www.jianshu.com/p/be99b57a87cc | [漏洞预警]CVE-2019-11580/Atlassian Crowd存在未授权文件上传导致远程代码执行 - 简书
+https://jishuin.proginn.com/p/763bfbd543c8 | apache ofbiz CVE-2021-26295 RMI反序列化分析-技术圈
+https://www.anquanke.com/post/id/232457 | CVE-2020-9480 Apache Spark 认证绕过漏洞EXP构造-安全客 - 安全资讯平台
+
+https://gitlab.hillstonenet.com/astg/astg_python/-/wikis/Phase2/week8 | week8 · Wiki · ASTG / ASTG_python · GitLab
+
+https://github.com/projectdiscovery/katana | projectdiscovery/katana: A next-generation crawling and spidering framework.
+https://github.com/pingc0y/URLFinder | pingc0y/URLFinder: 类似JSFinder的golang实现，一款用于快速提取检测页面中JS与URL的工具，更快更全更舒服
+
+https://cloud.tencent.com/developer/article/1917641 | 干货 | Office文档钓鱼的实战和免杀技巧 - 腾讯云开发者社区-腾讯云
+https://xz.aliyun.com/t/10891#toc-6 | jspxcms历史漏洞分析与复现-JAVA - 先知社区
+https://gustavshen.medium.com/walkthrough-of-my-vulnerable-ad-set-d56abeae5bac | Walkthrough of My Vulnerable AD Set | by Gustav Shen | Medium
+https://mp.weixin.qq.com/s/eh8SXkgcSQjLkFEjNkkfHw?vid=1688856422407762&deviceid=dfe3ea2c-f6be-4b0b-adb7-7221e85d2e4c&version=4.0.19.6020&platform=win | vulntarget-e write up
+https://blog.csdn.net/qq_40399982/article/details/113073036 | 最新kali之smbmap_Vanony的博客-CSDN博客_smbmap
+
+https://blog.csdn.net/qq_42046105/article/details/119430412?spm=1001.2014.3001.5506 | 破玩意 | 用 HTTPS 传纸条_普通网友的博客-CSDN博客
+
+https://www.cnblogs.com/bodhitree/p/8005283.html | Nashorn——在JDK 8中融合Java与JavaScript之力 - ThinkDiff - 博客园
+https://www.it1352.com/2678228.html | Java Runtime.getRuntime().exec() 替代方案 - IT屋-程序员软件开发技术分享社区
+https://www.cnblogs.com/Rlins/articles/16369693.html | java执行系统命令 - Rlins - 博客园
+https://www.freesion.com/article/9635966427/ | java 反序列化漏洞简介 - 灰信网（软件开发博客聚合）
+https://xz.aliyun.com/t/2342 | 利用Java反射和类加载机制绕过JSP后门检测 - 先知社区
+https://blog.csdn.net/m0_58434634/article/details/120447411 | Oneforall工具分析与改造_安全小工坊的博客-CSDN博客_oneforall
+https://zhuanlan.zhihu.com/p/150314198 | 二进制漏洞原理分析 - 知乎
+https://www.freebuf.com/articles/network/258136.html | 细说Jinja2之SSTI&amp;bypass - FreeBuf网络安全行业门户
+http://t.zoukankan.com/bmjoker-p-13508538.html | 1. SSTI（模板注入）漏洞（入门篇） - 走看看
+https://gitlab.hillstonenet.com/a-dlab/javaseccode/-/blob/master/src/main/java/com/hillstone/controller/command/CommandInject.java | src/main/java/com/hillstone/controller/command/CommandInject.java · master · A-DLab / JavaSecCode · GitLab
+https://gitlab.hillstonenet.com/a-dlab/javacodeauditcode/-/blob/main/base/CommandExec/src/main/java/com/hillstonenet/StringToByte.java | base/CommandExec/src/main/java/com/hillstonenet/StringToByte.java · main · A-DLab / JavaCodeAuditCode · GitLab
+https://gitlab.hillstonenet.com/a-dlab/javacodeaudittutorial/-/blob/main/base/commandExecute/commandExecute.md | base/commandExecute/commandExecute.md · main · A-DLab / JavaCodeAuditTutorial · GitLab
+
+https://xz.aliyun.com/t/7559 | CVE-2020-10204 Nexus Repository Manager 3-远程执行代码漏洞分析 - 先知社区
+https://www.cnblogs.com/tr1ple/p/12608731.html | CVE-2020-7961 Liferay Portal 复现分析 - tr1ple - 博客园
+https://cert.360.cn/report/detail?id=64955853d98e46855f124700ec03a1be | CVE-2020-7961：Liferay Portal 反序列化漏洞分析 - 360CERT
+https://cloud.tencent.com/developer/article/1797520 | CVE-2021-3129：Laravel远程代码执行复现分析 - 腾讯云开发者社区-腾讯云
+https://mp.weixin.qq.com/s/k08P2Uij_4ds35FxE2eh0g | 漏洞分析 | Laravel Debug页面RCE（CVE-2021-3129）分析复现
+https://www.freebuf.com/vuls/280508.html | Laravel RCE（CVE-2021-3129）漏洞复现 - FreeBuf网络安全行业门户
+https://blog.csdn.net/whatday/article/details/107879556 | cve-2019-7609 Kibana远程代码执行漏洞攻击方法和漏洞原理分析_whatday的博客-CSDN博客_docker镜像搭建具有kibana远程代码执行的漏洞环境
+https://www.leavesongs.com/PENETRATION/joomla-unserialize-code-execute-vulnerability.html | Joomla远程代码执行漏洞分析（总结） | 离别歌
+http://blog.nsfocus.net/cve-2019-11581-2/ | 【技术分析】Atlassian Jira未授权模板注入漏洞（CVE-2019-11581） – 绿盟科技技术博客
+https://cloud.tencent.com/developer/article/1939275 | CVE-2021-28169 - 腾讯云开发者社区-腾讯云
+https://xz.aliyun.com/t/10039#toc-2 | Eclipse Jetty WEB-INF敏感信息泄露漏洞分析（CVE-2021-28164/CVE-2021-34429） - 先知社区
+https://www.modb.pro/db/130565 | 浅析Jetty URI路径限制绕过漏洞（CVE-2021-28164） - 墨天轮
+
+https://blog.csdn.net/JiangBuLiu/article/details/95456384?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-8-95456384-blog-86772045.pc_relevant_landingrelevant&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-8-95456384-blog-86772045.pc_relevant_landingrelevant&utm_relevant_index=9 | 利用Vulnhub复现漏洞 - JBoss 4.x JBossMQ JMS 反序列化漏洞（CVE-2017-7504）_建瓯最坏的博客-CSDN博客
+https://www.anquanke.com/post/id/244038 | CVE-2017-7504 Jboss反序列化浅析-安全客 - 安全资讯平台
+https://vulhub.org/#/environments/jboss/CVE-2017-7504/ | Vulhub - Docker-Compose file for vulnerability environment
+https://github.com/joaomatosf/JavaDeserH2HC | joaomatosf/JavaDeserH2HC: Sample codes written for the Hackers to Hackers Conference magazine 2017 (H2HC).
+https://blog.csdn.net/weixin_46580614/article/details/119057802 | CVE-2017-12149 复现及修复_FanWd-sec的博客-CSDN博客_cve-2017-12149
+https://zhuanlan.zhihu.com/p/33532884 | JBoss反序列化漏洞（CVE-2017-12149） - 知乎
+
+https://mp.weixin.qq.com/s/eh8SXkgcSQjLkFEjNkkfHw?vid=1688856422407762&deviceid=dfe3ea2c-f6be-4b0b-adb7-7221e85d2e4c&version=4.0.19.6020&platform=win | vulntarget-e write up
+https://mp.weixin.qq.com/s/QWpkYf56oFvNdlumNo6fMA | vulntarget漏洞靶场系列（五）— vulntarget-e
+https://gustavshen.medium.com/walkthrough-of-my-vulnerable-ad-set-d56abeae5bac | Walkthrough of My Vulnerable AD Set | by Gustav Shen | Medium
+https://pan.baidu.com/s/1p3GDd7V3Unmq3-wSAvl7_Q#list/path=%2F&parentPath=%2F | vulntarget_免费高速下载|百度网盘-分享无限制
+https://pan.baidu.com/disk/main?from=homeSave#/index?category=all&path=%2F%E6%88%91%E7%9A%84%E8%B5%84%E6%BA%90%2Fvulntarget%2Fvulntarget-e | 百度网盘
+https://github.com/crow821/vulntarget | crow821/vulntarget: vulntarget靶场系列
+
+https://blog.csdn.net/GNNUXXL/article/details/122299540 | nc命令用法举例_GNNUXXL的博客-CSDN博客_nc命令
+https://blog.csdn.net/qq_54037445/article/details/123469988 | Nmap的简单使用_star-R的博客-CSDN博客_nmap使用
+https://gustavshen.medium.com/walkthrough-of-my-vulnerable-ad-set-d56abeae5bac | Walkthrough of My Vulnerable AD Set | by Gustav Shen | Medium
+https://blog.csdn.net/qq_51923959/article/details/111682291 | (12条消息) 域内大杀器CVE-2020-1472复现_Drunkmars的博客-CSDN博客_cve-2020-1472
+https://gchq.github.io/CyberChef/#recipe=URL_Encode(true)&input=ZWNobyUyNTI4MTIzJTI1MjklMjUzQg | URL Encode - CyberChef
+https://cn.bing.com/search?q=mimikatz&qs=n&form=QBRE&sp=-1&pq=mimikatz&sc=10-8&sk=&cvid=661CEBCFDCC5451E910E9DFB063706F9&ghsh=0&ghacc=0&ghpl= | mimikatz - 搜索
+https://www.jianshu.com/p/46e611754690 | Windows下抓取密码神器mimikatz - 简书
+https://github.com/gentilkiwi/mimikatz/releases | Releases · gentilkiwi/mimikatz
+https://www.cnblogs.com/pursuitofacm/p/6706841.html | mimikatz-域密码获取神器 - 小菜的爱 - 博客园
+https://github.com/gentilkiwi/mimikatz | gentilkiwi/mimikatz: A little tool to play with Windows security
+https://blog.csdn.net/weixin_40412037/article/details/113348310 | 内网渗透神器（Mimikatz）——使用教程_W小哥1的博客-CSDN博客_mimikatz
+
+http://blog.nsfocus.net/git-ssh-cve-2017-1000117/ | 【漏洞分析】当git遇上ssh——CVE-2017-1000117漏洞浅析 – 绿盟科技技术博客
+https://www.yisu.com/zixun/510905.html | 恶意SSH链接导致命令执行漏洞的示例分析 - 网络管理 - 亿速云
+https://www.anquanke.com/post/id/146909 | Git远程代码执行漏洞（CVE-2018-11235）的详细分析-安全客 - 安全资讯平台
+https://github.com/AnonymKing/CVE-2017-1000117 | AnonymKing/CVE-2017-1000117: CVE-2017-1000117漏洞复现（PoC+Exp）
+https://www.anquanke.com/post/id/86609 | 【漏洞分析】SSH 命令注入漏洞(CVE-2017-1000117)分析-安全客 - 安全资讯平台
+https://blog.csdn.net/yalecaltech/article/details/88975146 | Cve-2017-1000117复现_Neil-Yale的博客-CSDN博客
+
+https://www.cnblogs.com/0x28/p/14380432.html | Wordpress Plugin Mailpress Rce 漏洞复现&分析 - 0x28 - 博客园
+https://blog.csdn.net/Ping_Pig/article/details/102906932 | WordPress-Mailpress远程代码执行漏洞复现_Ping_Pig的博客-CSDN博客
+https://github.com/Medicean/VulApps/tree/master/w/wordpress/2 | VulApps/w/wordpress/2 at master · Medicean/VulApps
+http://0day5.com/archives/3960/ | WordPress-Mailpress远程代码执行漏洞 - 漏洞时代 - 最新漏洞_0DaY5.CoM
+http://blog.nsfocus.net/git-ssh-cve-2017-1000117/ | 【漏洞分析】当git遇上ssh——CVE-2017-1000117漏洞浅析 – 绿盟科技技术博客
+https://www.yisu.com/zixun/510905.html | 恶意SSH链接导致命令执行漏洞的示例分析 - 网络管理 - 亿速云
+https://github.com/AnonymKing/CVE-2017-1000117
+https://www.anquanke.com/post/id/86609 | 【漏洞分析】SSH 命令注入漏洞(CVE-2017-1000117)分析-安全客 - 安全资讯平台
+https://blog.csdn.net/yalecaltech/article/details/88975146 | Cve-2017-1000117复现_Neil-Yale的博客-CSDN博客
+
+https://www.freebuf.com/articles/web/274058.html | DVWA通关教程（上） - FreeBuf网络安全行业门户
+http://10.182.234.131:9222/docs#/default/get_rule_getRule_get | FastAPI - Swagger UI
+https://blog.csdn.net/Auuuuuuuu/article/details/91415165 | MySQL报错注入函数汇总_Au.J的博客-CSDN博客_name_const()函数
+https://blog.csdn.net/mochu7777777/article/details/106098996 | MySQL报错函数注入及原理_末初mochu7的博客-CSDN博客_mysql中,下面哪个报错函数跟extractvalue报错注入原理相同?
+https://blog.csdn.net/weixin_36124750/article/details/113157319 | mysql报错函数_MySQL十大报错函数_TJNiiiaaann的博客-CSDN博客
+https://www.freebuf.com/articles/network/332681.html | MYSQL8.0特性—无select注入 - FreeBuf网络安全行业门户
+
+https://www.fujieace.com/penetration-test/xss-100.html | XSS攻击绕过过滤方法大全（约100种） - 付杰博客
+https://www.freebuf.com/articles/web/274058.html | DVWA通关教程（上） - FreeBuf网络安全行业门户
+https://gchq.github.io/CyberChef/#recipe=To_HTML_Entity(true,'Named%20entities')&input=YWxlcnQoIlhTUyk | To HTML Entity - CyberChef
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&ch=&tn=baidu&bar=&wd=MYSQL+%E9%A2%84%E7%BC%96%E8%AF%91+%E5%8A%A8%E6%80%81%E6%9F%A5%E8%AF%A2&oq=MYSQL%E5%8A%A8%E6%80%81%E6%9F%A5%E8%AF%A2&rsv_pq=caa7bd190002c58e&rsv_t=b364L0rO6VdizvyAANis53maUeMZNgzyuJ%2FFx3LsjtzwCkwPnEHMRc1bT0A&rqlang=cn&rsv_enter=1&rsv_sug3=1&rsv_sug1=1&rsv_sug7=100 | MYSQL 预编译 动态查询_百度搜索
+https://www.cnblogs.com/gentlemanhai/p/14257007.html | Mysql预编译 - gentleman_hai - 博客园
+https://www.csdn.net/tags/NtDaYg2sOTIzMzYtYmxvZwO0O0OO0O0O.html | (10条消息) mysql的预编译查询语句 - CSDN
+
+https://www.freebuf.com/articles/web/333330.html | 回炉重造之SQL 注入 - FreeBuf网络安全行业门户
+https://zhzhdoai.github.io/2019/03/18/create-function%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/#create-function%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0 | create_function任意代码执行 - osword's blog
+https://www.cnblogs.com/zzjdbk/category/1774962.html | PHP代码审计 - 随笔分类 - My_Dreams - 博客园
+
+https://blog.csdn.net/qinshuoyang1/article/details/126444307 | 命令执行漏洞超详细讲解_摆烂阳的博客-CSDN博客_命令执行漏洞复现
+https://blog.csdn.net/qq_63844103/article/details/126953630 | 渗透测试——命令执行漏洞（RCE）详解_Demo不是emo的博客-CSDN博客
+https://blog.csdn.net/weixin_54055099/article/details/126905545 | 命令执行漏洞——远程命令执行_賺钱娶甜甜的博客-CSDN博客
+https://zhzhdoai.github.io/2019/03/18/create-function%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/#create-function%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0 | create_function任意代码执行 - osword's blog
+https://www.cnblogs.com/zzjdbk/category/1774962.html | PHP代码审计 - 随笔分类 - My_Dreams - 博客园
+
+https://ipcmen.com/bash | Linux bash 命令用法详解-Linux命令大全（手册）
+https://www.cnblogs.com/wq777/p/14050618.html | Linux Bash命令 - 奇博士 - 博客园
+
+https://cn.bing.com/search?q=%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E&qs=n&form=QBRE&msbsrank=11_12__0&sp=-1&pq=%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E&sc=23-6&sk=&cvid=092281B9E1244CBB83258343F8FF5252&ghsh=0&ghacc=0&ghpl= | 命令执行漏洞 - 搜索
+https://blog.csdn.net/LYJ20010728/article/details/117349106 | 详解命令执行漏洞_H3rmesk1t的博客-CSDN博客_linux命令执行漏洞
+https://blog.csdn.net/LYJ20010728/article/details/116902085 | 利用/绕过escapeshellarg/escapeshellcmd函数_H3rmesk1t的博客-CSDN博客_escapeshellarg绕过
+https://blog.csdn.net/qinshuoyang1/article/details/126444307 | 命令执行漏洞超详细讲解_摆烂阳的博客-CSDN博客_命令执行漏洞复现
+https://www.jianshu.com/p/fe24fd23c88d | 命令执行漏洞利用小结 - 简书
+https://blog.csdn.net/qq_63844103/article/details/126953630 | 渗透测试——命令执行漏洞（RCE）详解_Demo不是emo的博客-CSDN博客
+https://blog.csdn.net/weixin_54055099/article/details/126905545 | 命令执行漏洞——远程命令执行_賺钱娶甜甜的博客-CSDN博客
+https://zhzhdoai.github.io/2019/03/18/create-function%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/#:~:text=create_function,%E6%98%AFPHP%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E7%9A%84%E5%87%BD%E6%95%B0%EF%BC%8C%E5%85%B6%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8F%82%E6%95%B0%E6%98%AF%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8%EF%BC%8C%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%8F%82%E6%95%B0%E6%98%AF%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0%E7%9A%84%E5%86%85%E5%AE%B9%E3%80%82 | create_function任意代码执行 - osword's blog
+https://www.cnblogs.com/zzjdbk/p/12980483.html | PHP代码审计之create_function()函数 - My_Dreams - 博客园
+https://www.cnblogs.com/zzjdbk/category/1774962.html | PHP代码审计 - 随笔分类 - My_Dreams - 博客园
+
+https://www.jianshu.com/p/f10736931b93 | 【bash】关于 /dev/tcp/${HOST}/${PORT} - 简书
+https://www.cnblogs.com/machangwei-8/p/10353628.html | dd命令详解 - 马昌伟 - 博客园
+
+https://cn.bing.com/search?q=CVE-2021-22205&cvid=5c61e1322560478d99b0a66f38f7ead3&aqs=edge..69i57j0j69i60j69i61l2.2123j0j1&pglt=163&FORM=ANNTA1&PC=U531 | CVE-2021-22205 - 搜索
+https://www.cnblogs.com/cn-gov/p/15490588.html | 【漏洞复现】CVE-2021-22205 GitLab 未授权RCE - Adminxe - 博客园
+https://cloud.tencent.com/developer/article/2101590 | CVE-2021-22205 GitLab未授权RCE复现 - 腾讯云开发者社区-腾讯云
+https://zhuanlan.zhihu.com/p/439476986 | gitlab未授权RCE（CVE-2021-22205）漏洞复现及深入利用 - 知乎
+https://www.anquanke.com/post/id/259862 | gitlab未授权RCE（CVE-2021-22205）漏洞复现及深入利用-安全客 - 安全资讯平台
+https://blog.csdn.net/fengyingkong/article/details/87377061 | gitlab默认加密方式_fengyingkong的博客-CSDN博客_gitlab加密
+https://blog.csdn.net/weixin_44309905/article/details/121252037 | CVE-2021-22205——Gitlab 远程命令执行漏洞复现_李白你好的博客-CSDN博客_github漏洞复现
+
+https://blog.csdn.net/xinyue9966/article/details/115053234 | CVE-2017-12629 xxe漏洞复现_幸运之河的博客-CSDN博客
+https://blog.csdn.net/qq_43645782/article/details/107169338 | Apache solr xxe漏洞复现（CVE-2017-12629）_whojoe的博客-CSDN博客
+https://blog.csdn.net/qq_41918771/article/details/117778442?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-117778442-blog-107169338.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-117778442-blog-107169338.pc_relevant_default&utm_relevant_index=3 | [漏洞复现] Apache Solr XXE(CVE-2017-12629)_Vicl1fe的博客-CSDN博客
+https://www.jianshu.com/p/35f9b91de524/ | 2019-11-11 CVE-2017-12629 复现学习 - 简书
+https://cloud.tencent.com/developer/article/1144777 | CVE-2017-12629 - Apache Solr XXE & RCE 漏洞分析 - 腾讯云开发者社区-腾讯云
+https://www.freebuf.com/vuls/194489.html | 从Blind XXE漏洞到读取Root文件的系统提权 - FreeBuf网络安全行业门户
+https://www.w3cschool.cn/tools/index?name=urlencode_decode | URL在线编码转换工具 - 编码转换工具 - W3Cschool
+
+https://fofapro.github.io/vulfocus/#/writeup/CVE-2017-8046/CVE-2017-8046 | Spring Data REST PATCH 请求代码执行漏洞（CVE-2017-8046）
+https://blog.csdn.net/baidu_38844729/article/details/107149916 | Spring Data Rest 远程命令执行漏洞复现(CVE-2017-8046)_Franchi小白帽的博客-CSDN博客
+http://xxlegend.com/2017/09/29/Spring%20Data%20Rest%E6%9C%8D%E5%8A%A1%E5%99%A8PATCH%E8%AF%B7%E6%B1%82%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9ECVE-2017-8046%E8%A1%A5%E5%85%85%E5%88%86%E6%9E%90/ | Spring Data Rest服务器PATCH请求远程代码执行漏洞CVE-2017-8046补充分析 | xxlegend
+https://mp.weixin.qq.com/s/uTiWDsPKEjTkN6z9QNLtSA | 这个Spring高危漏洞，你修补了吗？
+https://blog.csdn.net/m0_58596609/article/details/124339729 | CVE-2017-8046-Spring Data Rest RCE 漏洞复现_种树人1的博客-CSDN博客
+https://zhuanlan.zhihu.com/p/526003612 | CVE-2022-26134 Confluence OGNL RCE 漏洞分析 - 知乎
