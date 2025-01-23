@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/popup.css">
+  <script src="/js/popup.js"></script>
+  <link rel="stylesheet" href="https://static.shodan.io/font-awesome/css/font-awesome.min.css">
+</head>
+<body class="hidden">
+	<div class="container">
+		<h1>
+			<i class="icon-globe"></i><span id="domain"></span>
+		</h1>
+
+    <table class="table">
+      <tbody id="items"></tbody>
+    </table>
+
+		<h2><i class="icon-th-large"></i>Open <strong>Ports</strong></h2>
+		<ul id="ports"></ul>
+
+		<div id="vulns">
+      <h2><i class="icon-fire"></i>Security <strong>Issues</strong></h2>
+      <a href="https://heartbleed.org" target="_blank">
+        <img src="/img/vulns/heartbleed.png" width="16" height="16" /> Heartbleed (CVE-2014-0160)
+      </a>
+    </div>
+  </div>
+
+  <div class="buttons-wrapper">
+    <a id="btnIpDetails" target="_blank">View IP Details</a>
+    <a id="btnDomainDetails" target="_blank">View Domain Details</a>
+  </div>
+</body>
+</html>
