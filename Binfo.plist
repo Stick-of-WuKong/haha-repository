@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>date</key>
+	<date>2025-04-22T08:02:37Z</date>
+	<key>displayName</key>
+	<string>今日热榜</string>
+	<key>id</key>
+	<string>today.tophub.app</string>
+</dict>
+</plist>
