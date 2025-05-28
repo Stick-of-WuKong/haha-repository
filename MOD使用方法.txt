@@ -1,0 +1,7 @@
+所有MOD使用方法都一样！
+第一步：打开游戏目录，Steam右键游戏-管理-浏览本地文件
+第二步：解压Mod文件夹dropzone到游戏目录，D:\Program Files (x86)\Steam\steamapps\common\theHunterCotW\dropzone一般是这个样子
+第三步：Steam右键游戏-属性-通用-启动选项，输入括号内的代码【--vfs-fs dropzone --vfs-archive patch_win64 --vfs-archive archives_win64 --vfs-archive dlc_win64 --vfs-fs .】
+大功告成，启动游戏！
+
+注：有些MOD会冲突自行选择覆盖，被覆盖的MOD不会生效！
